@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo
 
 # Site.
-title: A-Frame
-subtitle: Make WebVR
-description: "A web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile platforms."
+title: Exokit
+subtitle: The WebXR Engine
+description: "Native VR/AR/XR engine for JavaScript 🦖"
 email:
 language:
 robots: all
@@ -18,7 +18,7 @@ theme_color: black
 
 # URL.
 ## If your site is put in a sub-directory, set URL as `http://yoursite.com/child` and root as `/child/`.
-url: https://aframe.io
+url: https://exokit.org
 root: /
 permalink: blog/:title/
 tag_dir: tags
@@ -83,7 +83,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: aframe
+theme: exokit
 exclude_generator:
 - index
 
@@ -117,50 +117,45 @@ browsersync:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:aframevr/aframevr.github.io.git
+  repository: git@github.com:webmixedreality/webmixedreality.github.io.git
 
 disqus_shortname:
 twitter:
-  username: aframevr
-  url: https://twitter.com/aframevr/
+  username: exokitXR
+  url: https://twitter.com/exokitXR/
 google_analytics: UA-24056643-4
 google_analytics_mozilla_managers: UA-35433268-69
 fb_app_id: 1535794316743373
 
 github:
-  aframe:
-    username: aframevr
-    repo: aframe
-    url: https://github.com/aframevr/aframe/
-  aframe_site:
-    username: aframevr
-    repo: aframe-site
-    url: https://github.com/aframevr/aframe-site/
-  awesome_aframe:
-    username: aframevr
-    repo: awesome-aframe
-    url: https://github.com/aframevr/awesome-aframe
+  exokit:
+    username: webmixedreality
+    repo: exokit
+    url: https://github.com/webmixedreality/exokit/
+  exokit_site:
+    username: webmixedreality
+    repo: exokit-site
+    url: https://github.com/wemixedreality/exokit-site/
 
 
-aframe_lib:
-  home_url: https://aframe.io/
-  examples_url: https://aframe.io/aframe/examples
+exokit_lib:
+  home_url: https://exokit.org/
 
 slack:
-  aframe:
-    signup_url: https://aframe.io/slack-invite/
+  exokit:
+    signup_url: https://exokit.slack.com/join/shared_invite/enQtNDI3NjcxNzYwMDIxLWU2NmFmOTEzMzk4NWNiYjRhMjVkYzcyNjg5YjUyMzZkYWM1ZGI4M2IwYWZiMjNlMTJjMDlkM2U3Y2JiNTc2M2Q
 
 reddit:
   webvr:
     url: https://www.reddit.com/r/webvr
 
 stack_overflow:
-  aframe:
-    url: https://stackoverflow.com/questions/tagged/aframe
+  exokit:
+    url: https://stackoverflow.com/questions/tagged/exokit
   webvr:
     url: https://stackoverflow.com/questions/tagged/webvr
 
-aframe_version: 0.9.0
+exokit_version: master
 
 # Enable the Single-Page App.
 spa: false

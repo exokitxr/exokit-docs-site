@@ -1,6 +1,6 @@
-# aframe-site
+# exokit-site
 
-Powers the **[A-Frame Site](https://aframe.io/)**.
+Powers the **[Exokit Site](https://exokit.org/)**.
 
 This site is built using [hexo](http://hexo.io/). Site content is written in
 [Markdown](http://daringfireball.net/projects/markdown/syntax) (and located in
@@ -8,17 +8,15 @@ the [`src/`](src/) directory). Pull requests are welcome!
 
 ## Local Development
 
-Clone [this repository](https://github.com/aframevr/aframe-site):
+Clone [this repository](https://github.com/webmixedreality/exokit-site):
 
-    git clone git@github.com:aframevr/aframe-site.git && cd aframe-site
+    git clone git@github.com:webmixedreality/exokit-site.git && cd exokit-site
 
 To install the dependencies and start the local development server:
 
     npm install && npm run installdocs && npm start
 
-If you are testing something related to the A-Frame examples, you can set up
-local configuration settings to point the examples to your local A-Frame
-examples:
+You can set up local configuration settings:
 
     cp _config.local.yml.dist _config.local.yml
 
@@ -31,27 +29,24 @@ every change.
 
 ### Testing Documentation
 
-Documentation lives in the [A-Frame GitHub
-repo](https://github.com/aframevr/aframe/tree/master/docs).
+Documentation lives in the [Exokit GitHub
+repo](https://github.com/webmixedreality/exokit/tree/master/docs).
 
-First, clone the [A-Frame GitHub repo](https://github.com/aframevr/aframe).
+First, clone the Exokit GitHub repo](https://github.com/webmixedreality/exokit).
 
-    cd aframe
+    cd exokit
     npm link
 
-And then link `aframe-site` to `aframe`:
+And then link `exokit-site` to `exokit`:
 
-    cd aframe-site
-    npm link aframe
+    cd exokit-site
+    npm link exokit
 
 Then the `master` documentation will update as you work on them from the
-A-Frame repository. This works because we have pointed the A-Frame site, via a
+Exokit repository. This works because we have pointed the Exokit site, via a
 soft symbolic link, to the documentation installed in
-`node_modules/aframe/docs/`.
+`node_modules/exokit/docs/`.
 
-Old versions of documentation are handled through `multidep.json`. Run `npm run
-bumpdocs` to try to pull the latest documentation from GitHub branches (e.g.,
-`aframevr/aframe#docs-v0.3.0`).
 
 ## Deployment
 
@@ -63,7 +58,7 @@ automatically deploy the site.
 The documentation search service is hosted by [Algolia
 DocSearch](https://community.algolia.com/docsearch/). The indexing
 configuration can be found at the [DocSearch config
-repo](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json).
+repo](https://github.com/algolia/docsearch-configs/blob/master/configs/exokit.json).
 
 ## Credits
 

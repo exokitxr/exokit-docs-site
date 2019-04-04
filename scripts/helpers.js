@@ -1,23 +1,17 @@
-var cheerio = require('cheerio');
+exokitxrvar cheerio = require('cheerio');
 var moment = require('moment');
 var striptags = require('striptags');
 var urljoin = require('urljoin.js');
 
-var multidep = require('../multidep');
 var pkg = require('../package');
 var utils = require('../node_scripts/utils');
 
 var isUrl = utils.isUrl;
 
-var aframeVersions = multidep.versions.aframe.map(function (version) {
-  if (version.constructor === Array) { return version[1]; }
-  return version;
-});
-
 var MASTER = 'master';
-var aframeCurrentSha = MASTER;
+var exokitCurrentSha = MASTER;
 try {
-  aframeCurrentSha = pkg.dependencies.aframe.split('#')[1];
+  exokitCurrentSha = pkg.dependencies.exokit.split('#')[1];
 } catch (e) {}
 
 /**
@@ -63,11 +57,11 @@ hexo.extend.helper.register('table_of_contents', function (content) {
 });
 
 /**
- * twitter|andgokevin -> [@andgokevin](twitter.com/andgokevin)
- * twitter|andgokevin|Kevin Ngo -> [Kevin Ngo](twitter.com/andgokevin)
- * github|ngokevin -> [ngokevin](github.com/ngokevin)
- * ngokevin -> [ngokevin](ngokevin)
- * http://ngokevin.com|Kevin Ngo -> [Kevin Ngo](ngokevin.com)
+ * twitter|exokitxr -> [@exokitxr](twitter.com/exokitxr)
+ * twitter|exokitxr|Exokit XR -> [Exokit XR](twitter.com/exokitxr)
+ * github|exokitxr -> [exokitxr](github.com/exokitxr)
+ * exokitxr -> [exokitxr](exokitxr)
+ * http://exokitxr.com|Exokit XR -> [Exokit XR](exokitxr.com)
  */
 hexo.extend.helper.register('blog_attribution', function (author) {
   var authorSplit = author.split('|');
@@ -126,12 +120,12 @@ hexo.extend.helper.register('blog_date_subtract_week', function (date) {
 });
 
 /**
- * #1000 -> github.com/aframevr/aframe/pull/1000
- * abcde -> github.com/aframevr/aframe/commit/abcde
- * aframevr/aframe-editor|#1000 -> github.com/aframevr/aframe-editor/pull/1000
+ * #1000 -> github.com/webmixedreality/exokit/pull/1000
+ * abcde -> github.com/webmixedreality/exokit/commit/abcde
+ * webmixedreality/exokit-editor|#1000 -> github.com/webmixedreality/exokit-editor/pull/1000
  */
 hexo.extend.helper.register('github_contribution', function (contribution, display) {
-  var project = this.config.github.aframe.username + '/' + this.config.github.aframe.repo;
+  var project = this.config.github.exokit.username + '/' + this.config.github.exokit.repo;
   var contributionSplit;
   display = display || contribution;
 
@@ -151,12 +145,12 @@ hexo.extend.helper.register('github_contribution', function (contribution, displ
 });
 
 hexo.extend.helper.register('github_release_url', function (version) {
-  version = version || ('v' + this.config.aframe_version);
-  return urljoin(this.config.github.aframe.url, 'releases', 'tag', version);
+  version = version || ('v' + this.config.exokit_version);
+  return urljoin(this.config.github.exokit.url, 'releases', 'tag', version);
 });
 
 hexo.extend.helper.register('github_file_url', function (path) {
-  return urljoin(this.config.github.aframe.url, 'blob', aframeCurrentSha, path);
+  return urljoin(this.config.github.exokit.url, 'blob', exokitCurrentSha, path);
 });
 
 /**
@@ -167,12 +161,11 @@ hexo.extend.helper.register('github_file_url', function (path) {
 hexo.extend.helper.register('website_github_edit_url', function (path) {
   // For docs.
   if (path.indexOf('docs/') !== -1) {
-    var activeVersion = path.split('/')[path.split('/').indexOf('docs') + 1];
-    return urljoin(this.config.github.aframe.url, 'edit', MASTER,
-                   path.replace('docs/' + activeVersion, 'docs').replace(/\.html$/, '.md'));
+    return urljoin(this.config.github.exokit.url, 'edit', MASTER,
+                   path.replace('docs/', 'docs').replace(/\.html$/, '.md'));
   }
   // For blog posts.
-  return urljoin(this.config.github.aframe_site.url, 'edit', MASTER, this.config.source_dir,
+  return urljoin(this.config.github.exokit_site.url, 'edit', MASTER, this.config.source_dir,
                  path.replace(/\.html$/, '.md'));
 });
 
@@ -193,17 +186,6 @@ hexo.extend.helper.register('page_url', function (path, options) {
 
 hexo.extend.helper.register('docs_url_prefix', function (item) {
   return this.page.source.split('/', 2).join('/') + '/';
-});
-
-/**
- * Return actively-being-viewed version of the docs based on page.
- * Extract <VERSION> out of `.../docs/<VERSION>/...`.
- */
-hexo.extend.helper.register('docs_active_version', function (page) {
-  var splitPath = page.path.split('/');
-  var docIndex = splitPath.indexOf('docs');
-  if (docIndex === -1) { return hexo.config.aframe_version; }
-  return splitPath[docIndex + 1];
 });
 
 /**
@@ -259,14 +241,6 @@ function docs_version_filter (pages, version) {
     return page.path.indexOf('docs/' + version) !== -1;
   });
 }
-
-/**
- * Return list of A-Frame versions, including `master`.
- * Order (reverse chronological): master, current, <oldVersions>.
- */
-hexo.extend.helper.register('docs_versions', function () {
-  return [MASTER].concat(aframeVersions.sort().reverse());
-});
 
 hexo.extend.helper.register('is_external_url', isUrl);
 

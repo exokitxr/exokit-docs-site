@@ -17,20 +17,16 @@ function fixMarkdownLink (url) {
 }
 
 /**
- * Replace URLs for local dev when serving aframevr/aframe repo locally.
+ * Replace URLs for local dev when serving webmixedreality/exokit repo locally.
  */
 function convertProdToDevUrls (str) {
   if (typeof str !== 'string') {
     return str;
   }
   // Careful. Order does matter here.
-  if (this.config.aframe_lib.prod_examples_url) {
-    str = str.replace(new RegExp(this.config.aframe_lib.prod_examples_url, 'gi'),
-                      this.config.aframe_lib.examples_url);
-  }
-  if (this.config.aframe_lib.prod_home_url) {
-    str = str.replace(new RegExp(this.config.aframe_lib.prod_home_url, 'gi'),
-                      this.config.aframe_lib.home_url);
+  if (this.config.exokit_lib.prod_home_url) {
+    str = str.replace(new RegExp(this.config.exokit_lib.prod_home_url, 'gi'),
+                      this.config.exokit_lib.home_url);
   }
   return str;
 }

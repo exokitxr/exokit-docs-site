@@ -5,101 +5,43 @@ layout: page
 toc: true
 ---
 
-A-Frame's greatest strength is in enabling an ecosystem and the community of
+
+Exokit's greatest strength is in enabling an ecosystem and the community of
 people who come together to make developing WebVR a rewarding experience.
 
 ## Getting Started
 
-- [Documentation](https://aframe.io/docs/) - Official documentation and guides. If you get
+- [Documentation](../docs/) - Official documentation and guides. If you get
   stuck anywhere, let us know!
-- [GitHub](https://github.com/aframevr/aframe) - A-Frame GitHub repository. Also check out
-  other projects in the [`aframevr` GitHub organization](https://github.com/aframevr). Star
+- [GitHub](https://github.com/webmixedreality/exokit) - Exokit GitHub repository. Also check out
+  other projects in the [`webmixedreality` GitHub organization](https://github.com/webmixedreality). Star
   the project if you like it!
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/aframe) - The official place to
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/exokit) - The official place to
   ask questions and get technical support. Please first search for whether your
   question has already already answered on the [FAQ](/faq/) or [Stack
-  Overflow](http://stackoverflow.com/questions/tagged/aframe), and put effort
+  Overflow](http://stackoverflow.com/questions/tagged/exokit), and put effort
   into the question by providing context and code samples.
 
-## Core Team
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-Meet the team!
-
-<ul id="team">
-  <li>
-    <img class="teamAvatar" src="/images/avatars/diego.jpg">
-    <div class="teamInfoContainer">
-      <p class="teamName">Diego Marcos</p>
-      <p class="teamTagline"><i class="fas fa-briefcase"></i> Co-founder @ Supermedium</p>
-      <p class="teamLocation"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
-      <div class="teamSocial">
-        <a href="https://github.com/dmarcos"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/dmarcos"><i class="fab fa-twitter"></i></a>
-      </div>
-    </div>
-  </li>
-  <li>
-    <img class="teamAvatar" src="/images/avatars/kevin.jpg">
-    <div class="teamInfoContainer">
-      <p class="teamName">Kevin Ngo</p>
-      <p class="teamTagline"><i class="fas fa-briefcase"></i> Co-founder @ Supermedium</p>
-      <p class="teamLocation"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
-      <div class="teamSocial">
-        <a href="https://github.com/ngokevin"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/andgokevin"><i class="fab fa-twitter"></i></a>
-      </div>
-    </div>
-  </li>
-  <li>
-    <img class="teamAvatar" src="/images/avatars/don.jpg">
-    <div class="teamInfoContainer">
-      <p class="teamName">Don McCurdy</p>
-      <p class="teamTagline"><i class="fas fa-briefcase"></i> Developer @ Google</p>
-      <p class="teamLocation"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
-      <div class="teamSocial">
-        <a href="https://github.com/donmccurdy"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/donrmccurdy"><i class="fab fa-twitter"></i></a>
-      </div>
-    </div>
-  </li>
-</ul>
-
-To get A-Frame questions answered, we're also hanging out on the [Supermedium
-Discord](https://discord.gg/tGYjkYr). Feel from to come and ask us questions
-directly!
 
 ## News
 
-- [Blog](https://aframe.io/blog/) - **A Week of A-Frame** collects the latest
+- [Blog](../blog/) - collects the latest
   news, upcoming events, and cool projects that other people are working on.
-  The A-Frame Blog is also where you'll find announcements and community case
-  studies.
-- [Twitter](https://twitter.com/aframevr) - Keep up to date with awesome
+- [Twitter](https://twitter.com/exokitxr) - Keep up to date with awesome
   projects that people are doing and announcements.
 - [Subreddit](https://www.reddit.com/r/webvr) - General WebVR Subreddit.
 
-## Ecosystem
 
-- [A Week of A-Frame](https://aframe.io/blog) - Weekly series featuring fresh content from the community.
-- [A-Frame Components](https://www.npmjs.com/search?q=aframe-component&page=1&ranking=optimal)
 
 ## Slack
 
-[Sign up to the A-Frame Slack](https://aframe.io/slack-invite/) to hang
-out and join the discussion. The Slack is pretty active with currently over 7000
-people!
+[Sign up to the Exokit Slack](https://exokit.slack.com/join/shared_invite/enQtNDI3NjcxNzYwMDIxLWU2NmFmOTEzMzk4NWNiYjRhMjVkYzcyNjg5YjUyMzZkYWM1ZGI4M2IwYWZiMjNlMTJjMDlkM2U3Y2JiNTc2M2Q) to hang
+out and join the discussion.
 
-- [`#general`](http://aframevr.slackarchive.io/general/) - All things A-Frame!
-- [`#questions`](http://aframevr.slackarchive.io/questions/) - Ask questions
-  about A-Frame, but we recommend posting on
-  [StackOverflow](https://stackoverflow.com/questions/tagged/aframe).
-- [`#issues`](http://aframevr.slackarchive.io/issues/) - Talk about A-Frame issues.
-- [`#projects`](http://aframevr.slackarchive.io/projects/) - Show off cool A-Frame projects.
+## Discord
 
-There's also an #aframe channel on the [Supermedium
-Discord](https://supermedium.com/discord/) if you prefer that.
+There is a [Exokit
+Discord](https://discord.gg/Apk6cZN) with both technical and casual technology chat.
 
 ## User Groups, Events, Meetups
 
@@ -121,8 +63,7 @@ so Let us know to list them here!
 
 Are you holding an event? Below are some resources:
 
-- [Presentation Kit (Slide Deck)](https://github.com/aframevr/aframe-presentation-kit)
-- [Promotional Materials (Stickers, Posters, Images)](https://github.com/aframevr/aframe-presentation-kit/tree/master/materials)
+- [Presentation Kit (Slide Deck)](https://github.com/webmixedreality/exokit-presentation-kit)
 
 ## WebVR
 
@@ -132,18 +73,17 @@ Are you holding an event? Below are some resources:
 
 ## Roadmap
 
-- [A-Frame Roadmap](https://github.com/aframevr/aframe/blob/master/ROADMAP.md)
-- [A-Frame Milestones](https://github.com/aframevr/aframe/milestones)
+- [Exokit Roadmap](https://github.com/webmixedreality/exokit/blob/master/ROADMAP.md)
+- [Exokit Milestones](https://github.com/webmixedreality/exokit/milestones)
 
 ## Contributing
 
-A-Frame has had over 270 different contributors, a number that grows every
-single week. We'd love for you to join that list! See [A-Frame's guide to
-contributing](https://github.com/aframevr/aframe/blob/master/CONTRIBUTING.md).
+Exokit has had many different contributors, a number that is continuing to grow. We'd love for you to join that list! See [Exokit's guide to
+contributing](https://github.com/webmixedreality/exokit/blob/master/CONTRIBUTING.md).
 
 A lot of discussion happens on GitHub. The [main
-repository](https://github.com/aframevr/aframe) and [issue
-tracker](https://github.com/aframevr/aframe/issues/) are the front lines of the
+repository](https://github.com/webmixedreality/exokit) and [issue
+tracker](https://github.com/webmixedreality/exokit/issues/) are the front lines of the
 implementation work. Our reviewers strive to be friendly and to help mentor
 newcomers, so don't hesitate to open a pull request!
 
@@ -152,10 +92,8 @@ newcomers, so don't hesitate to open a pull request!
 We are committed to providing a friendly, safe and welcoming environment for
 all, regardless of gender, sexual orientation, disability, ethnicity, religion,
 or similar personal characteristic. Our code of conduct sets the standards for
-behavior in all official A-Frame channels.
+behavior in all official Exokit channels.
 
 If you feel you have been or are being harassed or made uncomfortable by a
-community member, please contact any of the A-Frame team members immediately.
-Whether you are a regular contributor or a newcomer, we care about making the
-community a safe space for you.
-
+community member, please contact any of the Exokit team members immediately.
+Whether you are a regular contributor or a newcomer, we care about you.

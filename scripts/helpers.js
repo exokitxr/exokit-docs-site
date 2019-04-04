@@ -1,4 +1,4 @@
-exokitxrvar cheerio = require('cheerio');
+var cheerio = require('cheerio');
 var moment = require('moment');
 var striptags = require('striptags');
 var urljoin = require('urljoin.js');

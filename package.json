@@ -40,7 +40,6 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "awoa": "node node_scripts/awoa.js",
     "bumpdocs": "npm install webmixedreality/exokit#master && npm run installdocs",
     "copydocs": "node node_scripts/copyDocs.js",
     "clean": "hexo clean",

@@ -18,7 +18,7 @@
   </div>
 </aside>
 
-  <div class="content content--blog copy post <% if (page.awoa && !page.awoa.projects) { %>content--awoa<% } %>">
+  <div class="content content--blog copy post">
     <%- partial('partials/secondary/mobile_header') %>
 
     <div class="copy__wrap">
@@ -35,9 +35,7 @@
             <%- partial('partials/blog/metadata', {post: post}) %>
 
             <% if (post.excerpt) { %>
-              <% if (!post.awoa) { %>
-                <%- partial('partials/blog/image', {image: post.image, title: post.title}) %>
-              <% } %>
+              <%- partial('partials/blog/image', {image: post.image, title: post.title}) %>
               <div class="post__excerpt"><%- post.excerpt %></div>
             <% } %>
 
@@ -64,19 +62,10 @@
           <h1 class="page__title post__heading"><%- page.title %></h1>
           <%- partial('partials/blog/metadata', {post: page}) %>
 
-          <% if (!page.awoa) { %>
-            <%- partial('partials/blog/image', {image: page.image, title: page.title}) %>
-          <% } %>
+          <%- partial('partials/blog/image', {image: page.image, title: page.title}) %>
 
           <%- page.content %>
 
-          <% if (page.awoa) { %>
-            <%- partial('partials/blog/awoa_projects_text', {projects: page.awoa.projects}) %>
-            <%- partial('partials/blog/awoa_media',
-                        {media: page.awoa.media}) %>
-            <%- partial('partials/blog/awoa_contributions',
-                        {contributions: page.awoa.contributions}) %>
-          <% } %>
         </article>
 
         <footer class="footer guide-links c">

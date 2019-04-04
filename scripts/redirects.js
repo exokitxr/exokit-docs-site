@@ -40,7 +40,7 @@ hexo.extend.generator.register('community-short-url-redirects', function () {
 
 hexo.extend.generator.register('docs-redirects', function () {
   var redirectObjs = [
-    getDocRootRedirectObjs()
+    // getDocRootRedirectObjs()
   ];
   redirectObjs.push([
     ['docs/', 'docs/' + 'introduction/'],
@@ -65,9 +65,8 @@ function expandRedirectObjs (redirectObjs) {
 /**
  * Redirects from '/docs/<version>/' to '/docs/<version>/guide/'.
  */
-function getDocRootRedirectObjs () {
-  return aframeVersions.map(function getRedirectObj (version) {
-      return ['docs/', 'docs/'];
-    }
-  });
-}
+// function getDocRootRedirectObjs () {
+//   return aframeVersions.map(function getRedirectObj (version) {
+//       return ['docs/', 'docs/'];
+//   });
+// }

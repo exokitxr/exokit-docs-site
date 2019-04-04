@@ -2,7 +2,6 @@
 title: "Introducing Exokit: A Javascript Web Engine for the Post Screen Era"
 date: 2018-03-30
 layout: blog
-awoa: false
 image:
   src: https://raw.githubusercontent.com/webmixedreality/exokit/master/icon.png
 author: Nicholas Loomis

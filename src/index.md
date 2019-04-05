@@ -5,10 +5,13 @@ layout: index
 ---
 
 <h1 class="slogan">
-  Slogan here
+A web engine for running XR experiences.
 </h1>
 
+
+
+
 <div class="intro">
-  <p>Make p1 here</p>
-  <p>Make another p here</p>
+  <p>Run and ship WebXR apps on</p>
+  <p>Magic Leap, Desktop and Mobile.</p>
 </div>

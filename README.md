@@ -50,8 +50,7 @@ soft symbolic link, to the documentation installed in
 
 ## Deployment
 
-Push changes to GitHub, and [@a-frobot](https://github.com/a-frobot/) will
-automatically deploy the site.
+Push changes to GitHub, and then deploy generated `public/` static files to [webmixedreality.github.io site](https://github.com/webmixedreality/webmixedreality.github.io/).
 
 ## Search
 
@@ -62,7 +61,7 @@ repo](https://github.com/algolia/docsearch-configs/blob/master/configs/exokit.js
 
 ## Credits
 
-Source adopted from the awesome [@vuejs](https://github.com/vuejs/)
+Source adopted from the awesome [@aframevr](https://github.com/aframevr/) [site](https://aframe.io) and [@vuejs](https://github.com/vuejs/)
 [site](https://github.com/vuejs/vuejs.org/).
 
 ## License

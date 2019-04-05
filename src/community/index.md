@@ -16,8 +16,7 @@ people who come together to make developing WebVR a rewarding experience.
 - [GitHub](https://github.com/webmixedreality/exokit) - Exokit GitHub repository. Also check out
   other projects in the [`webmixedreality` GitHub organization](https://github.com/webmixedreality). Star
   the project if you like it!
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/exokit) - The official place to
-  ask questions and get technical support. Please first search for whether your
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/exokit) - Ask questions and get technical support. Please first search for whether your
   question has already already answered on the [FAQ](/faq/) or [Stack
   Overflow](http://stackoverflow.com/questions/tagged/exokit), and put effort
   into the question by providing context and code samples.
@@ -33,15 +32,10 @@ people who come together to make developing WebVR a rewarding experience.
 
 
 
-## Slack
-
-[Sign up to the Exokit Slack](https://exokit.slack.com/join/shared_invite/enQtNDI3NjcxNzYwMDIxLWU2NmFmOTEzMzk4NWNiYjRhMjVkYzcyNjg5YjUyMzZkYWM1ZGI4M2IwYWZiMjNlMTJjMDlkM2U3Y2JiNTc2M2Q) to hang
-out and join the discussion.
-
 ## Discord
 
-There is a [Exokit
-Discord](https://discord.gg/Apk6cZN) with both technical and casual technology chat.
+[Sign up to the Exokit Discord](https://discord.gg/Apk6cZN) to hang
+out and join the discussion.
 
 ## User Groups, Events, Meetups
 

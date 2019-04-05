@@ -2,13 +2,6 @@ var urljoin = require('urljoin.js');
 
 var utils = require('../node_scripts/utils');
 
-hexo.extend.generator.register('examples.json', function (locals) {
-  return {
-    path: 'examples/index.json',
-    data: JSON.stringify(locals.data.examples)
-  };
-});
-
 hexo.extend.generator.register('examples', function (locals) {
   var routes = [];
 

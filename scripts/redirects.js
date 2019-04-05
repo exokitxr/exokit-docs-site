@@ -61,12 +61,3 @@ function expandRedirectObjs (redirectObjs) {
     return {path: redirectObj[0], data: utils.createRedirectResponse(hexo, redirectObj[1])};
   });
 }
-
-/**
- * Redirects from '/docs/<version>/' to '/docs/<version>/guide/'.
- */
-// function getDocRootRedirectObjs () {
-//   return aframeVersions.map(function getRedirectObj (version) {
-//       return ['docs/', 'docs/'];
-//   });
-// }

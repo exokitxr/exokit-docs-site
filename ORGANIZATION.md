@@ -8,7 +8,7 @@ Powered by [Hexo](https://hexo.io/)
   - `helpers.js` - Adding helper functions available to templates,
   - `redirects.js` - Generate redirect pages in case of moved pages.
 - `src` - Content. Do not put CSS/JavaScript files here because Hexo will malform them.
-  - `_data/` - `examples.json` for populating the homepage.
+  - `_data/` - 
   - `_posts/` - Blog posts.
   - `blog/index.md` - Hexo blog section metadata. Does **not** contain blog posts.
   - `community/index.md` - Community page.

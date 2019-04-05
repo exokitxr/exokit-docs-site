@@ -1,10 +1,4 @@
 projects:
-- name: Supermedium
-  author: Supermedium
-  url: https://supermedium.com
-  description: The browser for the VR Internet, available on Oculus and Steam. Surf between VR apps on the Web in seconds. From the creators of A-Frame.
-  image: /images/showcase/supermedium.jpg
-
 - name: Soundboxing WebVR
   author: Eric Florenzano (with Supermedium)
   url: https://webvr.soundboxing.co

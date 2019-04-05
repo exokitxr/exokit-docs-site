@@ -7,7 +7,7 @@ toc: true
 
 
 Exokit's greatest strength is in enabling an ecosystem and the community of
-people who come together to make developing WebVR a rewarding experience.
+people who come together to make developing WebXR a rewarding experience.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ people who come together to make developing WebVR a rewarding experience.
 - [GitHub](https://github.com/webmixedreality/exokit) - Exokit GitHub repository. Also check out
   other projects in the [`webmixedreality` GitHub organization](https://github.com/webmixedreality). Star
   the project if you like it!
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/exokit) - Ask questions and get technical support. Please first search for whether your
+- [Exokit GitHub Issues](https://github.com/webmixedreality/exokit/issues) - Ask questions and get technical support. Please first search for whether your
   question has already already answered on the [FAQ](/faq/) or [Stack
   Overflow](http://stackoverflow.com/questions/tagged/exokit), and put effort
   into the question by providing context and code samples.
@@ -28,13 +28,13 @@ people who come together to make developing WebVR a rewarding experience.
   news, upcoming events, and cool projects that other people are working on.
 - [Twitter](https://twitter.com/exokitxr) - Keep up to date with awesome
   projects that people are doing and announcements.
-- [Subreddit](https://www.reddit.com/r/webvr) - General WebVR Subreddit.
-
+- [WebVR Subreddit](https://www.reddit.com/r/webvr) - General WebVR Subreddit.
+- [WebXR Subreddit](https://www.reddit.com/r/webxr) - General WebVR Subreddit.
 
 
 ## Discord
 
-[Sign up to the Exokit Discord](https://discord.gg/Apk6cZN) to hang
+[Join the Exokit Discord](https://discord.gg/Apk6cZN) to hang
 out and join the discussion.
 
 ## User Groups, Events, Meetups

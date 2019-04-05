@@ -123,9 +123,9 @@ disqus_shortname:
 twitter:
   username: exokitXR
   url: https://twitter.com/exokitXR/
-google_analytics: UA-24056643-4
-google_analytics_mozilla_managers: UA-35433268-69
-fb_app_id: 1535794316743373
+google_analytics:
+google_analytics_mozilla_managers:
+fb_app_id:
 
 github:
   exokit:

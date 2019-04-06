@@ -50,7 +50,7 @@ soft symbolic link, to the documentation installed in
 
 ## Deployment
 
-Push changes to GitHub, and @exo-bot will automatically deploy the site.
+Push changes to GitHub, and [@exo-bot](https://github.com/exo-bot) will automatically deploy the site.
 
 
 ## Search

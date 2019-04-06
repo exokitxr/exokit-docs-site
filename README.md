@@ -32,7 +32,7 @@ every change.
 Documentation lives in the [Exokit GitHub
 repo](https://github.com/exokitxr/exokit/tree/master/docs).
 
-First, clone the Exokit GitHub repo](https://github.com/exokitxr/exokit).
+First, clone the [Exokit GitHub repo](https://github.com/exokitxr/exokit).
 
     cd exokit
     npm link

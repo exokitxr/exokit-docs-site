@@ -120,9 +120,9 @@ hexo.extend.helper.register('blog_date_subtract_week', function (date) {
 });
 
 /**
- * #1000 -> github.com/webmixedreality/exokit/pull/1000
- * abcde -> github.com/webmixedreality/exokit/commit/abcde
- * webmixedreality/exokit-editor|#1000 -> github.com/webmixedreality/exokit-editor/pull/1000
+ * #1000 -> github.com/exokitxr/exokit/pull/1000
+ * abcde -> github.com/exokitxr/exokit/commit/abcde
+ * exokitxr/exokit-editor|#1000 -> github.com/exokitxr/exokit-editor/pull/1000
  */
 hexo.extend.helper.register('github_contribution', function (contribution, display) {
   var project = this.config.github.exokit.username + '/' + this.config.github.exokit.repo;

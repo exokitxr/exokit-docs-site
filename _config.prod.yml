@@ -117,7 +117,7 @@ browsersync:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:webmixedreality/webmixedreality.github.io.git
+  repository: git@github.com:exokitxr/exokitxr.github.io.git
 
 disqus_shortname:
 twitter:
@@ -141,11 +141,11 @@ fb_app_id:
 
 github:
   exokit:
-    username: webmixedreality
+    username: exokitxr
     repo: exokit
-    url: https://github.com/webmixedreality/exokit/
+    url: https://github.com/exokitxr/exokit/
   exokit_site:
-    username: webmixedreality
+    username: exokitxr
     repo: exokit-site
     url: https://github.com/wemixedreality/exokit-site/
 

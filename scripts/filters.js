@@ -17,7 +17,7 @@ function fixMarkdownLink (url) {
 }
 
 /**
- * Replace URLs for local dev when serving webmixedreality/exokit repo locally.
+ * Replace URLs for local dev when serving exokitxr/exokit repo locally.
  */
 function convertProdToDevUrls (str) {
   if (typeof str !== 'string') {

@@ -8,9 +8,9 @@ the [`src/`](src/) directory). Pull requests are welcome!
 
 ## Local Development
 
-Clone [this repository](https://github.com/webmixedreality/exokit-site):
+Clone [this repository](https://github.com/exokitxr/exokit-site):
 
-    git clone git@github.com:webmixedreality/exokit-site.git && cd exokit-site
+    git clone git@github.com:exokitxr/exokit-site.git && cd exokit-site
 
 To install the dependencies and start the local development server:
 
@@ -30,9 +30,9 @@ every change.
 ### Testing Documentation
 
 Documentation lives in the [Exokit GitHub
-repo](https://github.com/webmixedreality/exokit/tree/master/docs).
+repo](https://github.com/exokitxr/exokit/tree/master/docs).
 
-First, clone the Exokit GitHub repo](https://github.com/webmixedreality/exokit).
+First, clone the Exokit GitHub repo](https://github.com/exokitxr/exokit).
 
     cd exokit
     npm link

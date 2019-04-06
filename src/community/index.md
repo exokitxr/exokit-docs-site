@@ -13,10 +13,10 @@ people who come together to make developing WebXR a rewarding experience.
 
 - [Documentation](../docs/) - Official documentation and guides. If you get
   stuck anywhere, let us know!
-- [GitHub](https://github.com/webmixedreality/exokit) - Exokit GitHub repository. Also check out
-  other projects in the [`webmixedreality` GitHub organization](https://github.com/webmixedreality). Star
+- [GitHub](https://github.com/exokitxr/exokit) - Exokit GitHub repository. Also check out
+  other projects in the [`exokitxr` GitHub organization](https://github.com/exokitxr). Star
   the project if you like it!
-- [Exokit GitHub Issues](https://github.com/webmixedreality/exokit/issues) - Ask questions and get technical support. Please first search for whether your
+- [Exokit GitHub Issues](https://github.com/exokitxr/exokit/issues) - Ask questions and get technical support. Please first search for whether your
   question has already already answered on the [FAQ](/faq/) or [Stack
   Overflow](http://stackoverflow.com/questions/tagged/exokit), and put effort
   into the question by providing context and code samples.
@@ -57,7 +57,7 @@ so Let us know to list them here!
 
 Are you holding an event? Below are some resources:
 
-- [Presentation Kit (Slide Deck)](https://github.com/webmixedreality/exokit-presentation-kit)
+- [Presentation Kit (Slide Deck)](https://github.com/exokitxr/exokit-presentation-kit)
 
 ## WebVR
 
@@ -67,17 +67,17 @@ Are you holding an event? Below are some resources:
 
 ## Roadmap
 
-- [Exokit Roadmap](https://github.com/webmixedreality/exokit/blob/master/ROADMAP.md)
-- [Exokit Milestones](https://github.com/webmixedreality/exokit/milestones)
+- [Exokit Roadmap](https://github.com/exokitxr/exokit/blob/master/ROADMAP.md)
+- [Exokit Milestones](https://github.com/exokitxr/exokit/milestones)
 
 ## Contributing
 
 Exokit has had many different contributors, a number that is continuing to grow. We'd love for you to join that list! See [Exokit's guide to
-contributing](https://github.com/webmixedreality/exokit/blob/master/CONTRIBUTING.md).
+contributing](https://github.com/exokitxr/exokit/blob/master/CONTRIBUTING.md).
 
 A lot of discussion happens on GitHub. The [main
-repository](https://github.com/webmixedreality/exokit) and [issue
-tracker](https://github.com/webmixedreality/exokit/issues/) are the front lines of the
+repository](https://github.com/exokitxr/exokit) and [issue
+tracker](https://github.com/exokitxr/exokit/issues/) are the front lines of the
 implementation work. Our reviewers strive to be friendly and to help mentor
 newcomers, so don't hesitate to open a pull request!
 

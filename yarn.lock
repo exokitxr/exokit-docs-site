@@ -50,9 +50,9 @@ acorn@^3.0.4, acorn@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-"exokit@github:webmixedreality/exokit#master":
+"exokit@github:exokitxr/exokit#master":
   version "0.5.0"
-  resolved "https://codeload.github.com/webmixedreality/exokit/tar.gz/d912199aabae463cb2cbe75efc27a5571637f653"
+  resolved "https://codeload.github.com/exokitxr/exokit/tar.gz/d912199aabae463cb2cbe75efc27a5571637f653"
   dependencies:
     browserify-css "^0.8.2"
     debug "^2.2.0"

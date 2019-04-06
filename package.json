@@ -42,11 +42,11 @@
   "scripts": {
     "bumpdocs": "npm install chrisplatorres/exokit#docsadded && npm run installdocs",
     "copydocs": "node node_scripts/copyDocs.js",
-    "copyreadme": "cp READMEsrc/README.md public/",
+    "copysrc": "cp -r COPYsrc/* public/",
     "clean": "hexo clean",
     "deploy": "npm run copydocs && npm run generate",
     "dev": "npm run clean && npm run generate:config && npm run server",
-    "generate": "npm run generate:config && hexo generate && npm run copyreadme",
+    "generate": "npm run generate:config && hexo generate && npm run copysrc",
     "generate:config": "yaml-cat _config.prod.yml _config.local.yml -n -m > _config.yml",
     "installdocs": "npm run copydocs",
     "server": "hexo server --debug",

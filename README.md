@@ -50,7 +50,8 @@ soft symbolic link, to the documentation installed in
 
 ## Deployment
 
-Push changes to GitHub, and then deploy generated `public/` static files to [webmixedreality.github.io site](https://github.com/webmixedreality/webmixedreality.github.io/).
+Push changes to GitHub, and @exo-bot will automatically deploy the site.
+
 
 ## Search
 

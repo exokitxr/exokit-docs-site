@@ -123,6 +123,18 @@ disqus_shortname:
 twitter:
   username: exokitXR
   url: https://twitter.com/exokitXR/
+instagram:
+    username: exokitXR
+    url: 'https://instagram.com/exokitXR/'
+facebook:
+    username: exokitXR
+    url: 'https://facebook.com/exokitxr'
+youtube:
+    url: 'https://www.youtube.com/channel/UC87Q7_5ooY8FSLwOec52ZPQ'
+twitch:
+    url: 'https://www.twitch.tv/exokitXR'
+mailinglist:
+    url: 'http://eepurl.com/dFiLMz'
 google_analytics:
 google_analytics_mozilla_managers:
 fb_app_id:
@@ -144,6 +156,10 @@ exokit_lib:
 slack:
   exokit:
     signup_url: https://exokit.slack.com/join/shared_invite/enQtNDI3NjcxNzYwMDIxLWU2NmFmOTEzMzk4NWNiYjRhMjVkYzcyNjg5YjUyMzZkYWM1ZGI4M2IwYWZiMjNlMTJjMDlkM2U3Y2JiNTc2M2Q
+
+discord:
+    exokit:
+        url: 'https://discord.gg/Apk6cZN'
 
 reddit:
   webvr:

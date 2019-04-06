@@ -6,7 +6,7 @@
     "chalk": "^1.1.3",
     "cheerio": "^0.20.0",
     "es6-promise": "^3.2.1",
-    "exokit": "github:chrisplatorres/exokit#docsadded",
+    "exokit": "github:exokitxr/exokit#master",
     "glob": "^7.0.6",
     "hexo": "3.2.2",
     "hexo-autoprefixer": "1.0.0",
@@ -40,7 +40,7 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "bumpdocs": "npm install chrisplatorres/exokit#docsadded && npm run installdocs",
+    "bumpdocs": "npm install exokitxr/exokit#master && npm run installdocs",
     "copydocs": "node node_scripts/copyDocs.js",
     "copysrc": "cp -r COPYsrc/* public/",
     "clean": "hexo clean",

@@ -7,7 +7,7 @@ projects:
 
 - name: Supercraft
   author: Supermedium
-  url: https://supermedium.com/supercraft/
+  url: https://supermedium.com/craft/
   description: Build VR in VR with your hands.
   image: /images/showcase/supercraft.jpg
 

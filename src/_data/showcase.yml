@@ -11,12 +11,6 @@ projects:
   description: Build VR in VR with your hands.
   image: /images/showcase/supercraft.jpg
 
-- name: Inside Music
-  author: Google (with Song Exploder, Supermedium)
-  url: https://experiments.withgoogle.com/webvr/inside-music/view/
-  description: What if you could step inside a song? This is a simple experiment that explores that idea. See and hear the individual layers of music all around you to get a closer look at how music is made.
-  image: /images/showcase/insidemusic.jpg
-
 - name: BeatSaver Viewer
   author: Supermedium
   url: https://supermedium.com/beatsaver-viewer/

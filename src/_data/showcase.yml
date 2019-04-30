@@ -11,12 +11,6 @@ projects:
   description: Build VR in VR with your hands.
   image: /images/showcase/supercraft.jpg
 
-- name: Musical Forest
-  author: Google
-  url: https://experiments.withgoogle.com/musical-forest
-  description: Join users from around the world in a musical forest.
-  image: /images/showcase/musicalforest.jpg
-
 - name: Inside Music
   author: Google (with Song Exploder, Supermedium)
   url: https://experiments.withgoogle.com/webvr/inside-music/view/

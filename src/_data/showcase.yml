@@ -23,12 +23,6 @@ projects:
   description: A new way to get together.
   image: /images/showcase/mozilla.jpg
 
-- name: Access Mars
-  author: NASA (with Google, Supermedium)
-  url: https://accessmars.withgoogle.com/
-  description: The real surface of Mars. Recorded by NASA's Curiosity rover. Now in your browser.
-  image: /images/showcase/nasa.jpg
-
 - name: Stand at the Edge of Geologic Time
   author: NPR
   url: https://apps.npr.org/rockymountain-vr/

@@ -11,12 +11,6 @@ projects:
   description: Build VR in VR with your hands.
   image: /images/showcase/supercraft.jpg
 
-- name: BeatSaver Viewer
-  author: Supermedium
-  url: https://supermedium.com/beatsaver-viewer/
-  description: Preview community-created beatmaps for Beat Saber on the Web.
-  image: /images/showcase/beatsaverviewer.jpg
-
 - name: CERN CMS / LHC Tour
   author: CERN
   url: http://cms-aframe.web.cern.ch/

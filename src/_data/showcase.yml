@@ -41,12 +41,6 @@ projects:
   description: $1m sweepstakes challenge from Sony to market the Hollywood film, "Escape Room". Find the clues, escape the rooms.
   image: /images/showcase/sony.jpg
 
-- name: 2019 Toyota Camry
-  author: Toyota
-  url: https://customise.toyota.com.au/camry/
-  description: Product page and configurator for the 2019 Toyota Camry.
-  image: /images/showcase/toyota.jpg
-
 - name: A-Painter
   author: A-Frame Team
   url: https://aframe.io/a-painter/

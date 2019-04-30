@@ -11,12 +11,6 @@ projects:
   description: Build VR in VR with your hands.
   image: /images/showcase/supercraft.jpg
 
-- name: CERN CMS / LHC Tour
-  author: CERN
-  url: http://cms-aframe.web.cern.ch/
-  description: A 360-degree tour of CERN's Large Hadron Collider (LHC) particle acclerator and its Compact Muon Solenoid (CMS).
-  image: /images/showcase/cern.jpg
-
 - name: 2019 Chevrolet Silverado
   author: Chevrolet
   url: https://d1vlj71acq3rf7.cloudfront.net/index.html

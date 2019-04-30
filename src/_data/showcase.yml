@@ -35,12 +35,6 @@ projects:
   description: Samsung's official immersive 360 content library.
   image: /images/showcase/samsung.jpg
 
-- name: Escape Room Movie Challenge
-  author: Sony
-  url: https://www.escaperoommoviechallenge.com/
-  description: $1m sweepstakes challenge from Sony to market the Hollywood film, "Escape Room". Find the clues, escape the rooms.
-  image: /images/showcase/sony.jpg
-
 - name: A-Painter
   author: A-Frame Team
   url: https://aframe.io/a-painter/

@@ -17,9 +17,8 @@ people who come together to make developing WebXR a rewarding experience.
   other projects in the [`exokitxr` GitHub organization](https://github.com/exokitxr). Star
   the project if you like it!
 - [Exokit GitHub Issues](https://github.com/exokitxr/exokit/issues) - Ask questions and get technical support. Please first search for whether your
-  question has already already answered on the [FAQ](/faq/) or [Stack
-  Overflow](http://stackoverflow.com/questions/tagged/exokit), and put effort
-  into the question by providing context and code samples.
+  question has already already answered on the [FAQ](/faq/) or documentation,
+  and put effort into the question by providing context and code samples.
 
 
 ## News

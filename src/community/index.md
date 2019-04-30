@@ -28,7 +28,7 @@ people who come together to make developing WebXR a rewarding experience.
 - [Twitter](https://twitter.com/exokitxr) - Keep up to date with awesome
   projects that people are doing and announcements.
 - [WebVR Subreddit](https://www.reddit.com/r/webvr) - General WebVR Subreddit.
-- [WebXR Subreddit](https://www.reddit.com/r/webxr) - General WebVR Subreddit.
+- [WebXR Subreddit](https://www.reddit.com/r/webxr) - General WebXR Subreddit.
 
 
 ## Discord

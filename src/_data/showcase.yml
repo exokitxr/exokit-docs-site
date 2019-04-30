@@ -17,12 +17,6 @@ projects:
   description: A product page and configurator for Chevrolet's 2019 Silverado truck.
   image: /images/showcase/chevrolet.jpg
 
-- name: Hidden Mickey
-  author: Disney
-  url: https://disney.co.uk/mickey-mouse/hidden-mickey
-  description: Hidden Mickeys have been slipped in all across Disney. They now find their way into this official A-Frame game, can you spot them?
-  image: /images/showcase/disney.jpg
-
 - name: 2019 Ford Expedition
   author: Ford
   url: https://www.ford.com/suvs/expedition/#component05

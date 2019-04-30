@@ -17,12 +17,6 @@ projects:
   description: A product page and configurator for Chevrolet's 2019 Silverado truck.
   image: /images/showcase/chevrolet.jpg
 
-- name: 2019 Ford Expedition
-  author: Ford
-  url: https://www.ford.com/suvs/expedition/#component05
-  description: Explore the interior of a 2019 Ford Expedition SUV.
-  image: /images/showcase/ford.jpg
-
 - name: Hubs
   author: Mozilla
   url: https://hubs.mozilla.org

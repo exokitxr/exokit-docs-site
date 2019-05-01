@@ -66,7 +66,6 @@ Are you holding an event? Below are some resources:
 
 ## Roadmap
 
-- [Exokit Roadmap](https://github.com/exokitxr/exokit/blob/master/ROADMAP.md)
 - [Exokit Milestones](https://github.com/exokitxr/exokit/milestones)
 
 ## Contributing

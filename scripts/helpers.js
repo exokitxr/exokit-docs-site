@@ -56,67 +56,8 @@ hexo.extend.helper.register('table_of_contents', function (content) {
   return toc;
 });
 
-/**
- * twitter|exokitxr -> [@exokitxr](twitter.com/exokitxr)
- * twitter|exokitxr|Exokit XR -> [Exokit XR](twitter.com/exokitxr)
- * github|exokitxr -> [exokitxr](github.com/exokitxr)
- * exokitxr -> [exokitxr](exokitxr)
- * http://exokitxr.com|Exokit XR -> [Exokit XR](exokitxr.com)
- */
-hexo.extend.helper.register('blog_attribution', function (author) {
-  var authorSplit = author.split('|');
-  var display;
-  var link;
-
-  // Nothing to do.
-  if (authorSplit.length === 1) { return author; }
-
-  // Twitter handle.
-  if (authorSplit[0] === 'twitter') {
-    if (authorSplit.length === 2) {
-      display = authorSplit[1];
-      link = authorSplit[1];
-    } else {
-      display = authorSplit[2];
-      link = authorSplit[1];
-    }
-    // Strip `@` from link.
-    if (link[0] === '@') {
-      link = link.substring(1);
-    }
-    return '<a class="blog-attribution" href="https://twitter.com/' + link + '">' +
-      display + '</a>';
-  }
-
-  // GitHub username.
-  if (authorSplit[0] === 'github') {
-    if (authorSplit.length === 2) {
-      display = authorSplit[1];
-      link = authorSplit[1];
-    } else {
-      display = authorSplit[2];
-      link = authorSplit[1];
-    }
-    return '<a class="blog-attribution" href="https://github.com/' + link + '">' +
-      display + '</a>';
-  }
-
-  // Link.
-  display = authorSplit[1];
-  link = authorSplit[0];
-  return '<a class="blog-attribution" href="' + link + '">' + display + '</a>';
-});
-
 hexo.extend.helper.register('markdown', function (text) {
   return hexo.render.renderSync({text: text, engine: 'markdown'});
-});
-
-hexo.extend.helper.register('blog_date', function (date) {
-  return moment(date).format('MMM D[,] YYYY');
-});
-
-hexo.extend.helper.register('blog_date_subtract_week', function (date) {
-  return moment(date).subtract({weeks: 1}).format('MMM D[,] YYYY');
 });
 
 /**
@@ -164,9 +105,7 @@ hexo.extend.helper.register('website_github_edit_url', function (path) {
     return urljoin(this.config.github.exokit_site.url, 'edit', MASTER,
                    path.replace('docs/', 'src/docs/').replace(/\.html$/, '.md'));
   }
-  // For blog posts.
-  return urljoin(this.config.github.exokit_site.url, 'edit', MASTER, this.config.source_dir,
-                 path.replace(/\.html$/, '.md'));
+
 });
 
 /**
@@ -248,10 +187,6 @@ hexo.extend.helper.register('is_external_url', isUrl);
  * Generate description for `<meta name="description">`.
  */
 hexo.extend.helper.register('meta_description', function (page) {
-  // If blog or documentation, return article excerpt.
-  if (page.layout === 'docs' || (page.layout === 'blog' && !page.blog_index)) {
-    return striptags(page.excerpt).substring(0, 280);
-  }
   // Else, return vanilla description.
   return hexo.config.description;
 });
@@ -260,11 +195,6 @@ hexo.extend.helper.register('meta_description', function (page) {
  * Infer image for `<meta property="og:image">` and Twitter card.
  */
 hexo.extend.helper.register('meta_image', function (page, defaultCard) {
-  // If blog, return blog image.
-  if (page.layout === 'blog' && !page.blog_index && page.image &&
-      !page.image.src.endsWith('.gif')) {
-    return 'images/blog/' + page.image.src;
-  }
   // Else, return default card image.
   return defaultCard;
 });

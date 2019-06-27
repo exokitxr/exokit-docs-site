@@ -39,15 +39,12 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "bumpdocs": "npm install exokitxr/exokit#master --ignore-scripts --no-optional && npm run installdocs",
-    "copydocs": "node node_scripts/copyDocs.js",
     "copysrc": "cp -r COPYsrc/* public/",
     "clean": "hexo clean",
-    "deploy": "npm run copydocs && npm run generate",
+    "deploy": "npm run generate",
     "dev": "npm run clean && npm run generate:config && npm run server",
     "generate": "npm run clean && npm run generate:config && hexo generate && npm run copysrc",
     "generate:config": "yaml-cat _config.prod.yml _config.local.yml -n -m > _config.yml",
-    "installdocs": "npm run copydocs",
     "server": "hexo server --debug",
     "start": "npm run dev",
     "test": "node script/checkLinks.js"

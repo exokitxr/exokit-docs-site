@@ -26,7 +26,7 @@
       data-is-spa="false"
       data-ga-id=""
   <head>
-    <title>Command Line Flags – Exokit</title>
+    <title>Debugging – Exokit</title>
     
 
 <script>
@@ -47,7 +47,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
     <meta property="fb:app_id" content="">
-    <meta property="og:title" content="Command Line Flags – Exokit">
+    <meta property="og:title" content="Debugging – Exokit">
     <meta property="og:site_name" content="Exokit">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://exokit.org">
@@ -57,7 +57,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@exokitXR">
     <meta name="twitter:creator" content="@exokitXR">
-    <meta name="twitter:title" content="Command Line Flags – Exokit">
+    <meta name="twitter:title" content="Debugging – Exokit">
     <meta name="twitter:description" content="Native VR/AR/XR engine for JavaScript">
     <meta name="twitter:image" content="http://exokit.org/images/card.jpg?v2">
     <meta name="mobile-web-app-capable" content="yes">
@@ -111,7 +111,7 @@
     
   </head>
 
-  <body data-page-layout="docs" data-page-type="sdk">
+  <body data-page-layout="docs" data-page-type="engine">
     <main id="main" class="main">
 
 
@@ -168,15 +168,6 @@
         </a>
       </li>
     
-      <li  class="nav-item">
-        <a href="/showcase/"
-           class="nav-link nav-link-docs"
-           
-           >
-          <span>Showcase</span>
-        </a>
-      </li>
-    
       <li  data-slug="github" class="nav-item">
         <a href="https://github.com/exokitxr"
            class="nav-link nav-link-docs"
@@ -205,22 +196,43 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Introduction</p>
+      <h3 class="section-title docs-section-title section-title-active">
+        <p class="section-title-link">Engine</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/"
+            <a href="/docs/engine/"
                class="subnav-link">
               What is Exokit?
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/faq.html"
+            <a href="/docs/engine/buildFromSource.html"
+               class="subnav-link">
+              Build from Source
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/exokitCommandLineFlags.html"
+               class="subnav-link">
+              Command Line Flags
+            </a>
+          </li>
+        
+          <li class="subnav-item  subnav-item-current">
+            <a href="/docs/engine/debugging.html"
+               class="subnav-link current">
+              Debugging
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/faq.html"
                class="subnav-link">
               FAQ
             </a>
@@ -232,108 +244,35 @@
 
       <!-- Section title. -->
       <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Guides</p>
+        <p class="section-title-link">Engine API</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/guides/exportOculusAPK.html"
-               class="subnav-link">
-              Export XR site to Oculus Mobile APK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMagicLeapOneMPK.html"
-               class="subnav-link">
-              Export XR site to Magic Leap One MPK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportWindowsEXE.html"
-               class="subnav-link">
-              Export XR site to Windows EXE
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMacDMG.html"
-               class="subnav-link">
-              Export XR site to macOS DMG
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-active">
-        <p class="section-title-link">SDK</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/buildFromSource.html"
-               class="subnav-link">
-              Build from Source
-            </a>
-          </li>
-        
-          <li class="subnav-item  subnav-item-current">
-            <a href="/docs/sdk/exokitCommandLineFlags.html"
-               class="subnav-link current">
-              Command Line Flags
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/debugging.html"
-               class="subnav-link">
-              Debugging
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">API</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/api/overview.html"
+            <a href="/docs/engineapi/overview.html"
                class="subnav-link">
               Overview
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webAPIs.html"
+            <a href="/docs/engineapi/webAPIs.html"
                class="subnav-link">
               Web APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webxrHardwareExtensionAPIs.html"
+            <a href="/docs/engineapi/webxrHardwareExtensionAPIs.html"
                class="subnav-link">
               WebXR Hardware Extension APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/iframeAPI.html"
+            <a href="/docs/engineapi/iframeAPI.html"
                class="subnav-link">
               iframe Reality Layers
             </a>
@@ -345,7 +284,7 @@
 </aside>
 
   <!-- Documentation. -->
-  <div class="content content--structured content--sdk copy">
+  <div class="content content--structured content--engine copy">
     <div class="mobile-header">
   <a id="sidebar-toggle" href="#" title="Toggle sidebar">&equiv;</a>
   <h1><a href="/">Exokit</a></h1>
@@ -396,129 +335,54 @@
     <div class="copy__wrap">
       <div class="page__section docs-header">
         <p>
-          <a href="/docs/sdk/buildFromSource.html" class="borderless-link">
-             &rsaquo; SDK
+          <a href="/docs/engine/" class="borderless-link">
+             &rsaquo; Engine
           </a>
         </p>
       </div>
       <h1 class="page__title">
-        Command Line Flags
+        Debugging
       </h1>
 
       
 
 
 
-      <p>An example of how to use these flags:</p>
-<p><code>./exokit.cmd -hup</code></p>
-<p><code>-hup</code> will launch Exokit Browser in a uncapped FPS mode with console performance logging.</p>
-<table>
-<thead>
-<tr>
-<th>Short-Form Flag</th>
-<th>Long-Form Flag</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>-v</code></td>
-<td><code>--version</code></td>
-<td>Print version and exit</td>
-</tr>
-<tr>
-<td><code>-h</code></td>
-<td><code>--home</code></td>
-<td>Loads realitytabs.html home (default)</td>
-</tr>
-<tr>
-<td><code>-t &lt;site url&gt;</code></td>
-<td><code>--tab</code></td>
-<td>Load a URL as a reality tab</td>
-</tr>
-<tr>
-<td><code>-w</code></td>
-<td>`–webgl &lt;1\</td>
-<td>2&gt;`</td>
-<td>Choose which version of WebGL to expose; defaults to 2</td>
-</tr>
-<tr>
-<td>`-x &lt;all\</td>
-<td>webxr\</td>
-<td>webvr&gt;`</td>
-<td><code>--xr</code></td>
-<td>Choose which version of WebVR/XR to expose; defaults to all</td>
-</tr>
-<tr>
-<td><code>-p</code></td>
-<td><code>--perf</code></td>
-<td>Log frame timing to console</td>
-</tr>
-<tr>
-<td><code>-s &lt;WxH&gt;</code></td>
-<td><code>--size</code></td>
-<td>Set window size to W by H</td>
-</tr>
-<tr>
-<td><code>-f</code></td>
-<td><code>--frame</code></td>
-<td>Log GL method calls and arguments to console</td>
-</tr>
-<tr>
-<td><code>-m</code></td>
-<td><code>--minimalFrame</code></td>
-<td>Log GL method calls to console</td>
-</tr>
-<tr>
-<td><code>-q</code></td>
-<td><code>--quit</code></td>
-<td>Quit on load; run the load phase and exit</td>
-</tr>
-<tr>
-<td><code>-l</code></td>
-<td><code>--log</code></td>
-<td>Output log to log.txt</td>
-</tr>
-<tr>
-<td><code>-r &lt;remote site file&gt; &lt;local file path&gt;</code></td>
-<td><code>--replace</code></td>
-<td>Replace file from site with a local file</td>
-</tr>
-<tr>
-<td><code>-u</code></td>
-<td><code>--require</code></td>
-<td>Expose node require() on <code>window</code></td>
-</tr>
-<tr>
-<td><code>-n</code></td>
-<td><code>--nogl</code></td>
-<td>Do not create GL contexts</td>
-</tr>
-<tr>
-<td><code>-e</code></td>
-<td><code>--headless</code></td>
-<td>Run in headless mode; do not create OS windows</td>
-</tr>
-<tr>
-<td><code>-c</code></td>
-<td><code>--uncapped</code></td>
-<td>Do not cap FPS to refresh rate of monitor in non-XR mode</td>
-</tr>
-<tr>
-<td></td>
-<td><code>--onbeforeload</code></td>
-<td>Run a script before each JS context loads</td>
-</tr>
-</tbody>
-</table>
+      <h2 id="logging"><a href="#logging" class="headerlink" title="Logging"></a>Logging</h2><p>Exokit has a logging mode enabled by the <code>-l</code> flag:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">exokit -l https://aframe.io/a-painter/</span><br></pre></td></tr></table></figure>
+<p>The logs go in <code>$HOME/.exokit/log.txt</code>. For Windows that generally means <code>C:\username\.exokit\log.txt</code>.</p>
+<h2 id="web-debugging"><a href="#web-debugging" class="headerlink" title="Web Debugging"></a>Web Debugging</h2><p>You can use the regular Node debugging tools to debug Exokit Engine.</p>
+<p>To start Exokit in inspector mode from the <code>exokit</code> git clone directory:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">node --inspect .</span><br></pre></td></tr></table></figure>
+<p>After the above you should be able to use <code>chrome://inspect</code> in the Chrome browser to connect to the <code>node</code> running Exokit Engine. You can use this to:</p>
+<ol>
+<li>Inspect values from the browser</li>
+<li>Set debugging breakpoints</li>
+<li>Capture heap snapshots</li>
+<li>Capture CPU profiles of live sites</li>
+</ol>
+<!-- #### Example session -->
+<h4 id="wait-for-attach"><a href="#wait-for-attach" class="headerlink" title="Wait for attach"></a>Wait for attach</h4><p>You may also be interested in starting Exokit Engine so that it doesn’t run until you get a chance to attach the inspector. For that you can use:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">node --inspect-brk .</span><br></pre></td></tr></table></figure>
+<h2 id="native-debugging"><a href="#native-debugging" class="headerlink" title="Native Debugging"></a>Native Debugging</h2><p>You can use gdb and MinGW gdb for Windows to debug Exokit Engine.</p>
+<h3 id="using-gdb"><a href="#using-gdb" class="headerlink" title="Using gdb"></a>Using gdb</h3><p>Run Exokit
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line">gdb node</span><br><span class="line">run src/index.js &lt;site url&gt;</span><br></pre></td></tr></table></figure></p>
+<p>Get a backtrace
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">bt</span><br></pre></td></tr></table></figure></p>
+<h3 id="using-mingw-gdb"><a href="#using-mingw-gdb" class="headerlink" title="Using MinGW gdb"></a>Using MinGW gdb</h3><p><a href="http://www.mingw.org/" target="_blank" rel="external">MinGW</a> distributes a Windows version of gdb. You can <a href="http://sourceforge.net/projects/mingw/files/" target="_blank" rel="external">get the latest mingw installer here</a> which can in turn install gdb. After installing MinGW, run the “MinGW Installation Manager” (which for me was located in C:\MinGW\libexec\mingw-get\guimain.exe ) and then make sure that the mingw32-gdb bin package is installed.</p>
+<p>There is also a fork for x64, mingw-w64, which can <a href="https://mingw-w64.org/doku.php" target="_blank" rel="external">be found here</a>).</p>
+<h3 id="using-gdb-1"><a href="#using-gdb-1" class="headerlink" title="Using gdb"></a>Using gdb</h3><p>Run Exokit
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line"><span class="comment"># Path to gdb at the time of this for mingw-64 was /c/Program\ Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gdb.exe</span></span><br><span class="line">&lt;path to gdb.exe&gt; node</span><br><span class="line">run src/index.js &lt;site url&gt;</span><br></pre></td></tr></table></figure></p>
+<p>Get a backtrace
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">bt</span><br></pre></td></tr></table></figure></p>
 
 
       <!-- Previous / Next navigation. -->
       <footer class="footer guide-links c">
         
+          <span class="float-left">
+            <a href="/docs/engine/exokitCommandLineFlags.html" class="guide-link guide-link-left">← Command Line Flags </a></span>
         
-          <span class="float-right">
-            <a href="/docs/sdk/debugging.html" class="guide-link guide-link-right">Debugging →</a></span>
         
       </footer>
 
@@ -526,7 +390,7 @@
   <p>
     The Exokit Engine and content on this site are licensed under the <a href="https://github.com/exokitxr/exokit/blob/master/LICENSE.md" rel="external">MIT License</a>.
   </p>
-  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/sdk/exokitCommandLineFlags.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
+  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/debugging.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
 </footer>
 
     </div>
@@ -539,13 +403,58 @@
 
   <ul class="subnav">
     
+      <li class="subnav-item">
+        <a class="subnav-link" href="#logging">Logging</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#web-debugging">Web Debugging</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#native-debugging">Native Debugging</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+              <li class="subnav-item">
+                <a class="subnav-link" href="#using-gdb">Using gdb</a>
+              </li>
+            
+              <li class="subnav-item">
+                <a class="subnav-link" href="#using-mingw-gdb">Using MinGW gdb</a>
+              </li>
+            
+              <li class="subnav-item">
+                <a class="subnav-link" href="#using-gdb-1">Using gdb</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
   </ul>
 </div>
 
       
 
       <div class="doc-actions">
-        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/sdk/exokitCommandLineFlags.md" target="_blank" rel="external">Edit Page</a>
+        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/debugging.md" target="_blank" rel="external">Edit Page</a>
         
       </div>
     </div>

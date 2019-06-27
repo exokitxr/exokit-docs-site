@@ -26,7 +26,7 @@
       data-is-spa="false"
       data-ga-id=""
   <head>
-    <title>Export XR site to Magic Leap One MPK – Exokit</title>
+    <title>Build from Source – Exokit</title>
     
 
 <script>
@@ -47,7 +47,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
     <meta property="fb:app_id" content="">
-    <meta property="og:title" content="Export XR site to Magic Leap One MPK – Exokit">
+    <meta property="og:title" content="Build from Source – Exokit">
     <meta property="og:site_name" content="Exokit">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://exokit.org">
@@ -57,7 +57,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@exokitXR">
     <meta name="twitter:creator" content="@exokitXR">
-    <meta name="twitter:title" content="Export XR site to Magic Leap One MPK – Exokit">
+    <meta name="twitter:title" content="Build from Source – Exokit">
     <meta name="twitter:description" content="Native VR/AR/XR engine for JavaScript">
     <meta name="twitter:image" content="http://exokit.org/images/card.jpg?v2">
     <meta name="mobile-web-app-capable" content="yes">
@@ -111,7 +111,7 @@
     
   </head>
 
-  <body data-page-layout="docs" data-page-type="guides">
+  <body data-page-layout="docs" data-page-type="engine">
     <main id="main" class="main">
 
 
@@ -168,15 +168,6 @@
         </a>
       </li>
     
-      <li  class="nav-item">
-        <a href="/showcase/"
-           class="nav-link nav-link-docs"
-           
-           >
-          <span>Showcase</span>
-        </a>
-      </li>
-    
       <li  data-slug="github" class="nav-item">
         <a href="https://github.com/exokitxr"
            class="nav-link nav-link-docs"
@@ -205,22 +196,43 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Introduction</p>
+      <h3 class="section-title docs-section-title section-title-active">
+        <p class="section-title-link">Engine</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/"
+            <a href="/docs/engine/"
                class="subnav-link">
               What is Exokit?
             </a>
           </li>
         
+          <li class="subnav-item  subnav-item-current">
+            <a href="/docs/engine/buildFromSource.html"
+               class="subnav-link current">
+              Build from Source
+            </a>
+          </li>
+        
           <li class="subnav-item ">
-            <a href="/docs/introduction/faq.html"
+            <a href="/docs/engine/exokitCommandLineFlags.html"
+               class="subnav-link">
+              Command Line Flags
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/debugging.html"
+               class="subnav-link">
+              Debugging
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/faq.html"
                class="subnav-link">
               FAQ
             </a>
@@ -231,109 +243,36 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-active">
-        <p class="section-title-link">Guides</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportOculusAPK.html"
-               class="subnav-link">
-              Export XR site to Oculus Mobile APK
-            </a>
-          </li>
-        
-          <li class="subnav-item  subnav-item-current">
-            <a href="/docs/guides/exportMagicLeapOneMPK.html"
-               class="subnav-link current">
-              Export XR site to Magic Leap One MPK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportWindowsEXE.html"
-               class="subnav-link">
-              Export XR site to Windows EXE
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMacDMG.html"
-               class="subnav-link">
-              Export XR site to macOS DMG
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
       <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">SDK</p>
+        <p class="section-title-link">Engine API</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/sdk/buildFromSource.html"
-               class="subnav-link">
-              Build from Source
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/exokitCommandLineFlags.html"
-               class="subnav-link">
-              Command Line Flags
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/debugging.html"
-               class="subnav-link">
-              Debugging
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">API</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/api/overview.html"
+            <a href="/docs/engineapi/overview.html"
                class="subnav-link">
               Overview
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webAPIs.html"
+            <a href="/docs/engineapi/webAPIs.html"
                class="subnav-link">
               Web APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webxrHardwareExtensionAPIs.html"
+            <a href="/docs/engineapi/webxrHardwareExtensionAPIs.html"
                class="subnav-link">
               WebXR Hardware Extension APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/iframeAPI.html"
+            <a href="/docs/engineapi/iframeAPI.html"
                class="subnav-link">
               iframe Reality Layers
             </a>
@@ -345,7 +284,7 @@
 </aside>
 
   <!-- Documentation. -->
-  <div class="content content--structured content--guides copy">
+  <div class="content content--structured content--engine copy">
     <div class="mobile-header">
   <a id="sidebar-toggle" href="#" title="Toggle sidebar">&equiv;</a>
   <h1><a href="/">Exokit</a></h1>
@@ -396,46 +335,51 @@
     <div class="copy__wrap">
       <div class="page__section docs-header">
         <p>
-          <a href="/docs/guides/exportOculusAPK.html" class="borderless-link">
-             &rsaquo; Guides
+          <a href="/docs/engine/" class="borderless-link">
+             &rsaquo; Engine
           </a>
         </p>
       </div>
       <h1 class="page__title">
-        Export XR site to Magic Leap One MPK
+        Build from Source
       </h1>
 
       
 
 
 
-      <p>This guide explains how to package your XR site with the Exokit Engine as an MPK for the Magic Leap One headset.</p>
-<h2 id="set-default-site"><a href="#set-default-site" class="headerlink" title="Set default site"></a>Set default site</h2><p>In the Exokit <a href="https://github.com/exokitxr/exokit/blob/f10dadf0013de0a35a5e72046140a0345987ab80/main.cpp#L416" target="_blank" rel="external"><code>main.cpp</code></a> is where you will find the default site that the Exokit MPK will load into. Change the <code>jsString</code> to your site URL or file path.</p>
-<h2 id="prerequisites"><a href="#prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><p>Node <code>11.15.0</code><br>Latest Exokit
-Ubuntu Windows Subsystem for Linux (WSL)</p>
-<h2 id="install-the-magic-leap-sdk"><a href="#install-the-magic-leap-sdk" class="headerlink" title="Install the Magic Leap SDK"></a>Install the Magic Leap SDK</h2><p>Sign in as a Magic Leap creator:
-<a href="https://www.magicleap.com/creator" target="_blank" rel="external">https://www.magicleap.com/creator</a></p>
-<p>Download developer certificate and private key in Publish then Certificates.</p>
-<p>Download the Package Manager:
-<a href="https://creator.magicleap.com/downloads/lumin-sdk/overview" target="_blank" rel="external">https://creator.magicleap.com/downloads/lumin-sdk/overview</a></p>
-<p>Once the package manager is opened, download the 0.19.0 version of the SDK.</p>
-<h2 id="build-mpk"><a href="#build-mpk" class="headerlink" title="Build MPK"></a>Build MPK</h2><p>Confirm that <code>MLSDK</code> in <code>scripts/magicleap/version-ml.sh</code> points to the Magic Leap SDK directory. Create the <code>cert</code> directory and place the renamed certificate and private key inside.
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line"><span class="comment"># edit MLSDK path in ./scripts/magicleap/version-ml.sh</span></span><br><span class="line"><span class="comment"># place the renamed certificate in cert/app.cert and private key in cert/app.privkey</span></span><br></pre></td></tr></table></figure></p>
-<p>Build the MPK
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Run this inside Ubuntu WSL</span></span><br><span class="line">./scripts/magicleap/build-ml.sh</span><br></pre></td></tr></table></figure></p>
-<p>If you want to now install and run into your plugged in device using mldb
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">./scripts/magicleap/install-ml.sh</span><br><span class="line">./scripts/magicleap/run-ml.sh</span><br></pre></td></tr></table></figure></p>
+      <p>The main project repository is at <a href="https://github.com/exokitxr/exokit" target="_blank" rel="external"><code>exokitxr/exokit</code></a>. You can clone it the regular way:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/exokitxr/exokit.git</span><br></pre></td></tr></table></figure>
+<h3 id="windows-requirements"><a href="#windows-requirements" class="headerlink" title="Windows requirements"></a>Windows requirements</h3><p>Requirements: Node.js 12.2.0, Python 2, Visual Studio 2015 or 2017</p>
+<p>Alternative requirements: Node.js 12.2.0, as administrator: npm install -g windows-build-tools</p>
+<h3 id="macos-requirements"><a href="#macos-requirements" class="headerlink" title="macOS requirements"></a>macOS requirements</h3><p>Requirements: Node.js 12.2.0, XCode</p>
+<h3 id="linux-requirements"><a href="#linux-requirements" class="headerlink" title="Linux requirements"></a>Linux requirements</h3><p>Requirements: Node.js 12.2.0</p>
+<p>Linux additionally requires that you install some local dependencies. For <code>Debian</code>/<code>Ubuntu</code> they are:
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">apt-get install -y \</span><br><span class="line">build-essential wget python libglfw3-dev libglew-dev libfreetype6-dev libfontconfig1-dev uuid-dev libxcursor-dev libxinerama-dev libxi-dev libasound2-dev libexpat1-dev</span><br></pre></td></tr></table></figure></p>
+<h2 id="install-and-build"><a href="#install-and-build" class="headerlink" title="Install and build"></a>Install and build</h2><p>Make sure to be using Node <code>v12.2.0</code>. We recommend using <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="external">nvm</a> or <a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="external">nvm-windows</a> for managing Node versions.
+After Node <code>v12.2.0</code> is installed, all of the Exokit dependencies and native code can be build with <code>npm install</code>:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="common-build-errors"><a href="#common-build-errors" class="headerlink" title="Common build errors"></a>Common build errors</h2><p>This section covers common errors when building the Exokit engine and their solutions.</p>
+<h3 id="error-cannot-find-module-39-build-release-vm-one-node-39"><a href="#error-cannot-find-module-39-build-release-vm-one-node-39" class="headerlink" title="Error: Cannot find module &#39;./build/Release/vm_one.node&#39;"></a><code>Error: Cannot find module &#39;./build/Release/vm_one.node&#39;</code></h3><p>There was a build failure that was ignored and <code>node_modules</code> contains the failure. Wipe <code>node_modules</code> and try to build again.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">rm -rf node_modules</span><br><span class="line">npm cache clean</span><br></pre></td></tr></table></figure>
+<h3 id="lt-skimage-h-gt-not-found-or-a-missing-header"><a href="#lt-skimage-h-gt-not-found-or-a-missing-header" class="headerlink" title="&lt;SkImage.h&gt; not found, or a missing header"></a><code>&lt;SkImage.h&gt; not found</code>, or a missing header</h3><p>This means a prebuilt dependency did not extract. Clear your <code>npm</code>/<code>yarn</code> cache, <code>rm -Rf node_modules</code> and <code>npm install</code> again.</p>
+<h4 id="notes"><a href="#notes" class="headerlink" title="Notes"></a>Notes</h4><ol>
+<li>Exokit’s bindings code is a native module build using the <a href="https://github.com/exokitxr/exokit/blob/master/binding.gyp" target="_blank" rel="external"><code>binding.gyp</code> recipe</a>.</li>
+<li>Exokit downloads and uses several prebuilt dependencies. They have been pre-compiled for all supported architectures and uploaded to npm. They self-extract themselves based off detected architecture.</li>
+</ol>
+<h2 id="run-exokit-engine"><a href="#run-exokit-engine" class="headerlink" title="Run Exokit Engine"></a>Run Exokit Engine</h2><p>Exokit Engine is just a node module, so you can run it with node.
+From the <code>exokit</code> git clone directory, do:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">node . &lt;site URL or file path&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="debugging"><a href="#debugging" class="headerlink" title="Debugging"></a>Debugging</h2><p>You can use the regular Node debugging tools and gdb to debug Exokit Engine. See the <a href="debugging.html">debugging documentation</a> for more information.</p>
+<h2 id="contributing"><a href="#contributing" class="headerlink" title="Contributing"></a>Contributing</h2><p>Please <a href="https://github.com/exokitxr/exokit/issues" target="_blank" rel="external">file an issue</a> if you encounter any bugs. Pull Requests are very much welcome as well.</p>
 
 
       <!-- Previous / Next navigation. -->
       <footer class="footer guide-links c">
         
           <span class="float-left">
-            <a href="/docs/guides/exportOculusAPK.html" class="guide-link guide-link-left">← Export XR site to Oculus Mobile APK </a></span>
+            <a href="/docs/engine/" class="guide-link guide-link-left">← What is Exokit? </a></span>
         
-        
-          <span class="float-right">
-            <a href="/docs/guides/exportWindowsEXE.html" class="guide-link guide-link-right">Export XR site to Windows EXE →</a></span>
         
       </footer>
 
@@ -443,7 +387,7 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
   <p>
     The Exokit Engine and content on this site are licensed under the <a href="https://github.com/exokitxr/exokit/blob/master/LICENSE.md" rel="external">MIT License</a>.
   </p>
-  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/guides/exportMagicLeapOneMPK.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
+  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/buildFromSource.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
 </footer>
 
     </div>
@@ -457,7 +401,7 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
   <ul class="subnav">
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#set-default-site">Set default site</a>
+        <a class="subnav-link" href="#install-and-build">Install and build</a>
 
         <!-- Nested. -->
         
@@ -468,7 +412,26 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
       </li>
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#prerequisites">Prerequisites</a>
+        <a class="subnav-link" href="#common-build-errors">Common build errors</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+              <li class="subnav-item">
+                <a class="subnav-link" href="#error-cannot-find-module-39-build-release-vm-one-node-39">Error: Cannot find module &#39;./build/Release/vm_one.node&#39;</a>
+              </li>
+            
+              <li class="subnav-item">
+                <a class="subnav-link" href="#lt-skimage-h-gt-not-found-or-a-missing-header">&lt;SkImage.h&gt; not found, or a missing header</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#run-exokit-engine">Run Exokit Engine</a>
 
         <!-- Nested. -->
         
@@ -479,7 +442,7 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
       </li>
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#install-the-magic-leap-sdk">Install the Magic Leap SDK</a>
+        <a class="subnav-link" href="#debugging">Debugging</a>
 
         <!-- Nested. -->
         
@@ -490,7 +453,7 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
       </li>
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#build-mpk">Build MPK</a>
+        <a class="subnav-link" href="#contributing">Contributing</a>
 
         <!-- Nested. -->
         
@@ -506,7 +469,7 @@ Ubuntu Windows Subsystem for Linux (WSL)</p>
       
 
       <div class="doc-actions">
-        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/guides/exportMagicLeapOneMPK.md" target="_blank" rel="external">Edit Page</a>
+        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/buildFromSource.md" target="_blank" rel="external">Edit Page</a>
         
       </div>
     </div>

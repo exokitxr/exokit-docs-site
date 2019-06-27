@@ -111,7 +111,7 @@
     
   </head>
 
-  <body data-page-layout="docs" data-page-type="api">
+  <body data-page-layout="docs" data-page-type="engineapi">
     <main id="main" class="main">
 
 
@@ -168,15 +168,6 @@
         </a>
       </li>
     
-      <li  class="nav-item">
-        <a href="/showcase/"
-           class="nav-link nav-link-docs"
-           
-           >
-          <span>Showcase</span>
-        </a>
-      </li>
-    
       <li  data-slug="github" class="nav-item">
         <a href="https://github.com/exokitxr"
            class="nav-link nav-link-docs"
@@ -206,21 +197,42 @@
 
       <!-- Section title. -->
       <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Introduction</p>
+        <p class="section-title-link">Engine</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/"
+            <a href="/docs/engine/"
                class="subnav-link">
               What is Exokit?
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/faq.html"
+            <a href="/docs/engine/buildFromSource.html"
+               class="subnav-link">
+              Build from Source
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/exokitCommandLineFlags.html"
+               class="subnav-link">
+              Command Line Flags
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/debugging.html"
+               class="subnav-link">
+              Debugging
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/faq.html"
                class="subnav-link">
               FAQ
             </a>
@@ -231,109 +243,36 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Guides</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportOculusAPK.html"
-               class="subnav-link">
-              Export XR site to Oculus Mobile APK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMagicLeapOneMPK.html"
-               class="subnav-link">
-              Export XR site to Magic Leap One MPK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportWindowsEXE.html"
-               class="subnav-link">
-              Export XR site to Windows EXE
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMacDMG.html"
-               class="subnav-link">
-              Export XR site to macOS DMG
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">SDK</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/buildFromSource.html"
-               class="subnav-link">
-              Build from Source
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/exokitCommandLineFlags.html"
-               class="subnav-link">
-              Command Line Flags
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/debugging.html"
-               class="subnav-link">
-              Debugging
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
       <h3 class="section-title docs-section-title section-title-active">
-        <p class="section-title-link">API</p>
+        <p class="section-title-link">Engine API</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/api/overview.html"
+            <a href="/docs/engineapi/overview.html"
                class="subnav-link">
               Overview
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webAPIs.html"
+            <a href="/docs/engineapi/webAPIs.html"
                class="subnav-link">
               Web APIs
             </a>
           </li>
         
           <li class="subnav-item  subnav-item-current">
-            <a href="/docs/api/webxrHardwareExtensionAPIs.html"
+            <a href="/docs/engineapi/webxrHardwareExtensionAPIs.html"
                class="subnav-link current">
               WebXR Hardware Extension APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/iframeAPI.html"
+            <a href="/docs/engineapi/iframeAPI.html"
                class="subnav-link">
               iframe Reality Layers
             </a>
@@ -345,7 +284,7 @@
 </aside>
 
   <!-- Documentation. -->
-  <div class="content content--structured content--api copy">
+  <div class="content content--structured content--engineapi copy">
     <div class="mobile-header">
   <a id="sidebar-toggle" href="#" title="Toggle sidebar">&equiv;</a>
   <h1><a href="/">Exokit</a></h1>
@@ -396,8 +335,8 @@
     <div class="copy__wrap">
       <div class="page__section docs-header">
         <p>
-          <a href="/docs/api/overview.html" class="borderless-link">
-             &rsaquo; API
+          <a href="/docs/engineapi/overview.html" class="borderless-link">
+             &rsaquo; Engine API
           </a>
         </p>
       </div>
@@ -505,7 +444,7 @@
       <footer class="footer guide-links c">
         
           <span class="float-left">
-            <a href="/docs/api/webAPIs.html" class="guide-link guide-link-left">← Web APIs </a></span>
+            <a href="/docs/engineapi/webAPIs.html" class="guide-link guide-link-left">← Web APIs </a></span>
         
         
       </footer>
@@ -514,7 +453,7 @@
   <p>
     The Exokit Engine and content on this site are licensed under the <a href="https://github.com/exokitxr/exokit/blob/master/LICENSE.md" rel="external">MIT License</a>.
   </p>
-  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/api/webxrHardwareExtensionAPIs.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
+  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engineapi/webxrHardwareExtensionAPIs.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
 </footer>
 
     </div>
@@ -600,7 +539,7 @@
       
 
       <div class="doc-actions">
-        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/api/webxrHardwareExtensionAPIs.md" target="_blank" rel="external">Edit Page</a>
+        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engineapi/webxrHardwareExtensionAPIs.md" target="_blank" rel="external">Edit Page</a>
         
       </div>
     </div>

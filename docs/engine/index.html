@@ -26,7 +26,7 @@
       data-is-spa="false"
       data-ga-id=""
   <head>
-    <title>Export XR site to Oculus Mobile APK – Exokit</title>
+    <title>What is Exokit? – Exokit</title>
     
 
 <script>
@@ -47,7 +47,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
     <meta property="fb:app_id" content="">
-    <meta property="og:title" content="Export XR site to Oculus Mobile APK – Exokit">
+    <meta property="og:title" content="What is Exokit? – Exokit">
     <meta property="og:site_name" content="Exokit">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://exokit.org">
@@ -57,7 +57,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@exokitXR">
     <meta name="twitter:creator" content="@exokitXR">
-    <meta name="twitter:title" content="Export XR site to Oculus Mobile APK – Exokit">
+    <meta name="twitter:title" content="What is Exokit? – Exokit">
     <meta name="twitter:description" content="Native VR/AR/XR engine for JavaScript">
     <meta name="twitter:image" content="http://exokit.org/images/card.jpg?v2">
     <meta name="mobile-web-app-capable" content="yes">
@@ -111,7 +111,7 @@
     
   </head>
 
-  <body data-page-layout="docs" data-page-type="guides">
+  <body data-page-layout="docs" data-page-type="engine">
     <main id="main" class="main">
 
 
@@ -168,15 +168,6 @@
         </a>
       </li>
     
-      <li  class="nav-item">
-        <a href="/showcase/"
-           class="nav-link nav-link-docs"
-           
-           >
-          <span>Showcase</span>
-        </a>
-      </li>
-    
       <li  data-slug="github" class="nav-item">
         <a href="https://github.com/exokitxr"
            class="nav-link nav-link-docs"
@@ -205,22 +196,43 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">Introduction</p>
+      <h3 class="section-title docs-section-title section-title-active">
+        <p class="section-title-link">Engine</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
-          <li class="subnav-item ">
-            <a href="/docs/introduction/"
-               class="subnav-link">
+          <li class="subnav-item  subnav-item-current">
+            <a href="/docs/engine/"
+               class="subnav-link current">
               What is Exokit?
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/introduction/faq.html"
+            <a href="/docs/engine/buildFromSource.html"
+               class="subnav-link">
+              Build from Source
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/exokitCommandLineFlags.html"
+               class="subnav-link">
+              Command Line Flags
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/debugging.html"
+               class="subnav-link">
+              Debugging
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/engine/faq.html"
                class="subnav-link">
               FAQ
             </a>
@@ -231,109 +243,36 @@
       
 
       <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-active">
-        <p class="section-title-link">Guides</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item  subnav-item-current">
-            <a href="/docs/guides/exportOculusAPK.html"
-               class="subnav-link current">
-              Export XR site to Oculus Mobile APK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMagicLeapOneMPK.html"
-               class="subnav-link">
-              Export XR site to Magic Leap One MPK
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportWindowsEXE.html"
-               class="subnav-link">
-              Export XR site to Windows EXE
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/guides/exportMacDMG.html"
-               class="subnav-link">
-              Export XR site to macOS DMG
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
       <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">SDK</p>
+        <p class="section-title-link">Engine API</p>
       </h3>
 
       <!-- Section links. -->
       <ol class="subnav section-subnav">
         
           <li class="subnav-item ">
-            <a href="/docs/sdk/buildFromSource.html"
-               class="subnav-link">
-              Build from Source
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/exokitCommandLineFlags.html"
-               class="subnav-link">
-              Command Line Flags
-            </a>
-          </li>
-        
-          <li class="subnav-item ">
-            <a href="/docs/sdk/debugging.html"
-               class="subnav-link">
-              Debugging
-            </a>
-          </li>
-        
-      </ol>
-    
-      
-
-      <!-- Section title. -->
-      <h3 class="section-title docs-section-title section-title-inactive">
-        <p class="section-title-link">API</p>
-      </h3>
-
-      <!-- Section links. -->
-      <ol class="subnav section-subnav">
-        
-          <li class="subnav-item ">
-            <a href="/docs/api/overview.html"
+            <a href="/docs/engineapi/overview.html"
                class="subnav-link">
               Overview
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webAPIs.html"
+            <a href="/docs/engineapi/webAPIs.html"
                class="subnav-link">
               Web APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/webxrHardwareExtensionAPIs.html"
+            <a href="/docs/engineapi/webxrHardwareExtensionAPIs.html"
                class="subnav-link">
               WebXR Hardware Extension APIs
             </a>
           </li>
         
           <li class="subnav-item ">
-            <a href="/docs/api/iframeAPI.html"
+            <a href="/docs/engineapi/iframeAPI.html"
                class="subnav-link">
               iframe Reality Layers
             </a>
@@ -345,7 +284,7 @@
 </aside>
 
   <!-- Documentation. -->
-  <div class="content content--structured content--guides copy">
+  <div class="content content--structured content--engine copy">
     <div class="mobile-header">
   <a id="sidebar-toggle" href="#" title="Toggle sidebar">&equiv;</a>
   <h1><a href="/">Exokit</a></h1>
@@ -396,52 +335,27 @@
     <div class="copy__wrap">
       <div class="page__section docs-header">
         <p>
-          <a href="/docs/guides/exportOculusAPK.html" class="borderless-link">
-             &rsaquo; Guides
+          <a href="/docs/engine/" class="borderless-link">
+             &rsaquo; Engine
           </a>
         </p>
       </div>
       <h1 class="page__title">
-        Export XR site to Oculus Mobile APK
+        What is Exokit?
       </h1>
 
       
 
 
 
-      <p>This guide explains how to package your XR site with the Exokit Engine as an APK for Oculus Mobile (Oculus Go, Oculus Quest) devices.</p>
-<h3 id="set-default-site"><a href="#set-default-site" class="headerlink" title="Set default site"></a>Set default site</h3><p>In the Exokit <a href="https://github.com/exokitxr/exokit/blob/f10dadf0013de0a35a5e72046140a0345987ab80/main.cpp#L416" target="_blank" rel="external"><code>main.cpp</code></a> is where you will find the default site that the Exokit APK will load into. Change the <code>jsString</code> to your site URL or file path.</p>
-<h2 id="option-1-docker"><a href="#option-1-docker" class="headerlink" title="OPTION 1- Docker"></a>OPTION 1- Docker</h2><p>The upside of docker is that it requires minimal environment setup. The downside is that it will do <em>every</em> instruction <em>everytime</em> it is run.</p>
-<p>Building an APK with the Dockerfile is as simple as:</p>
-<ul>
-<li><code>docker pull debian:latest</code></li>
-<li><code>docker build -f android.Dockerfile -t exokit .</code></li>
-<li><code>docker run exokit cat exokit.apk &gt;exokit.apk</code></li>
-</ul>
-<h2 id="option-2-manual-environment-setup"><a href="#option-2-manual-environment-setup" class="headerlink" title="OPTION 2- Manual environment setup"></a>OPTION 2- Manual environment setup</h2><h3 id="prerequisites"><a href="#prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h3><p>Node <code>11.15.0</code><br>Latest Exokit<br>Ubuntu Windows Subsystem for Linux (WSL)</p>
-<h3 id="install-android-sdkmanager"><a href="#install-android-sdkmanager" class="headerlink" title="Install Android sdkmanager"></a>Install Android sdkmanager</h3><p>Instructions for getting the Android SDK manager, adb, ndk-bundle, etc:</p>
-<p>To install it on a Debian-based system, simply do:
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Install latest JDK</span></span><br><span class="line">sudo apt install default-jdk</span><br><span class="line"></span><br><span class="line"><span class="comment"># install unzip if not installed yet</span></span><br><span class="line">sudo apt install unzip</span><br><span class="line"></span><br><span class="line"><span class="comment"># get latest sdk tools - link will change. go to https://developer.android.com/studio/#downloads to get the latest one</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip</span><br><span class="line"></span><br><span class="line"><span class="comment"># unpack archive</span></span><br><span class="line">unzip sdk-tools-linux-4333796.zip</span><br><span class="line"></span><br><span class="line">rm sdk-tools-linux-4333796.zip</span><br><span class="line"></span><br><span class="line">mkdir android-sdk</span><br><span class="line">mv tools android-sdk/tools</span><br></pre></td></tr></table></figure></p>
-<p>Then add the Android SDK to your PATH: open ~/.bashrc in editor and add the following lines into the file:
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Export the Android SDK path</span><br><span class="line">export ANDROID_HOME=$HOME/android-sdk</span><br><span class="line">export PATH=$PATH:$ANDROID_HOME/tools/bin</span><br><span class="line">export PATH=$PATH:$ANDROID_HOME/platform-tools</span><br><span class="line"></span><br><span class="line"># Fixes sdkmanager error with java versions higher than java 8</span><br><span class="line">export JAVA_OPTS=&apos;-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee&apos;</span><br></pre></td></tr></table></figure></p>
-<p>Run:</p>
-<p><code>source ~/.bashrc</code></p>
-<p>Show all available SDK packages:</p>
-<p><code>sdkmanager --list</code></p>
-<p>Accept all sdkmanager licenses:</p>
-<p><code>yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses</code></p>
-<p>Identify latest android platform (here it’s 28) and run:</p>
-<p><code>sdkmanager &quot;platform-tools&quot; &quot;platforms;android-28&quot;</code></p>
-<p>Now you have adb, fastboot and the latest sdk tools installed.</p>
-<p>To install NDK directly, run:</p>
-<p><code>sdkmanager &quot;ndk-bundle&quot;</code></p>
-<h3 id="build-apk"><a href="#build-apk" class="headerlink" title="Build APK"></a>Build APK</h3><p>Confirm that <code>$ANDROID_HOME</code> points to Android/Sdk directory</p>
-<p>Make the NDK standalone toolchain:
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line">./scripts/oculusmobile/make-toolchain-android.sh</span><br></pre></td></tr></table></figure></p>
-<p>Build the APK:
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Run this inside Ubuntu WSL</span></span><br><span class="line">./scripts/oculusmobile/build-android.sh</span><br></pre></td></tr></table></figure></p>
-<p>If you want to now install and run in your plugged-in device using adb:
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">./scripts/oculusmobile/install-android.sh</span><br><span class="line">./scripts/oculusmobile/run-android.sh</span><br></pre></td></tr></table></figure></p>
+      <h2 id="the-basics"><a href="#the-basics" class="headerlink" title="The Basics"></a>The Basics</h2><p>The Exokit Engine is a native 3D XR web engine.</p>
+<p><img src="https://user-images.githubusercontent.com/29695350/57173379-8efe7780-6df4-11e9-9cb0-ddb073530b33.PNG" alt="Capture_23"></p>
+<h2 id="first-principles"><a href="#first-principles" class="headerlink" title="First principles"></a>First principles</h2><p>The Exokit Engine is built using Node.js. It is primarily used to power 3d experiences, but can emulate 2D. For example, emulating a 2D web browser based on Chrome Embedded Framework to use for 2D interfaces.</p>
+<p><img src="https://user-images.githubusercontent.com/29695350/57173364-27482c80-6df4-11e9-9464-c8ddf4a00ccd.jpg" alt="DumzXuYU0AEInfW"></p>
+<h2 id="exokit-and-the-web"><a href="#exokit-and-the-web" class="headerlink" title="Exokit and the Web"></a>Exokit and the Web</h2><p>Exokit provides native hooks for WebGL, WebXR, WebVR, WebAudio, and other APIs used for immersive experiences.
+The Exokit engine loads web pages and experiences built with your favorite frameworks like THREE.js, A-Frame, Babylon.js, etc.</p>
+<p><img src="https://user-images.githubusercontent.com/29695350/57173374-7c843e00-6df4-11e9-8e5d-9191912a11f7.png" alt="Screenshot from 2019-03-05 19-05-23"></p>
+<h2 id="get-started"><a href="#get-started" class="headerlink" title="Get started"></a>Get started</h2><p>Start your journey, <a href="https://get.exokit.org/" target="_blank" rel="external">download Exokit here</a>.<br>If you are a developer, <a href="../sdk/buildFromSource">get started developing on Exokit here</a>.</p>
 
 
       <!-- Previous / Next navigation. -->
@@ -449,7 +363,7 @@
         
         
           <span class="float-right">
-            <a href="/docs/guides/exportMagicLeapOneMPK.html" class="guide-link guide-link-right">Export XR site to Magic Leap One MPK →</a></span>
+            <a href="/docs/engine/buildFromSource.html" class="guide-link guide-link-right">Build from Source →</a></span>
         
       </footer>
 
@@ -457,7 +371,7 @@
   <p>
     The Exokit Engine and content on this site are licensed under the <a href="https://github.com/exokitxr/exokit/blob/master/LICENSE.md" rel="external">MIT License</a>.
   </p>
-  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/guides/exportOculusAPK.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
+  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/index.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
 </footer>
 
     </div>
@@ -471,7 +385,7 @@
   <ul class="subnav">
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#option-1-docker">OPTION 1- Docker</a>
+        <a class="subnav-link" href="#the-basics">The Basics</a>
 
         <!-- Nested. -->
         
@@ -482,23 +396,33 @@
       </li>
     
       <li class="subnav-item">
-        <a class="subnav-link" href="#option-2-manual-environment-setup">OPTION 2- Manual environment setup</a>
+        <a class="subnav-link" href="#first-principles">First principles</a>
 
         <!-- Nested. -->
         
           <ul>
             
-              <li class="subnav-item">
-                <a class="subnav-link" href="#prerequisites">Prerequisites</a>
-              </li>
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#exokit-and-the-web">Exokit and the Web</a>
+
+        <!-- Nested. -->
+        
+          <ul>
             
-              <li class="subnav-item">
-                <a class="subnav-link" href="#install-android-sdkmanager">Install Android sdkmanager</a>
-              </li>
-            
-              <li class="subnav-item">
-                <a class="subnav-link" href="#build-apk">Build APK</a>
-              </li>
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#get-started">Get started</a>
+
+        <!-- Nested. -->
+        
+          <ul>
             
           </ul>
         
@@ -510,7 +434,7 @@
       
 
       <div class="doc-actions">
-        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/guides/exportOculusAPK.md" target="_blank" rel="external">Edit Page</a>
+        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit-site/edit/master/src/docs/engine/index.md" target="_blank" rel="external">Edit Page</a>
         
       </div>
     </div>

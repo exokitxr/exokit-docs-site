@@ -161,7 +161,7 @@ hexo.extend.helper.register('github_file_url', function (path) {
 hexo.extend.helper.register('website_github_edit_url', function (path) {
   // For docs.
   if (path.indexOf('docs/') !== -1) {
-    return urljoin(this.config.github.exokit.url, 'edit', MASTER,
+    return urljoin(this.config.github.exokit_site.url, 'edit', MASTER,
                    path.replace('docs/', 'src/docs/').replace(/\.html$/, '.md'));
   }
   // For blog posts.

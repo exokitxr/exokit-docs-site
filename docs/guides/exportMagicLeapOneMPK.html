@@ -1,0 +1,553 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      data-is-home="false"
+      data-is-mobile="false"
+      data-supports-vr="false"
+      data-supports-touch="false"
+      data-site-base-url="https://exokit.org"
+      data-site-root-path="/"
+      data-site-home-url="https://exokit.org/"
+      data-lib-home-url="https://exokit.org/"
+      data-title="{title} | Exokit"
+      data-is-spa="false"
+      data-ga-id=""
+  <head>
+    <title>Export XR site to Magic Leap One MPK – Exokit</title>
+    
+
+<script>
+  var host = window.location.protocol + '//' + window.location.hostname;
+  if (window.location.protocol === 'http:' &&
+      window.location.hostname === 'https://exokit.org') {
+    window.location.href = 'https:' + window.location.href.substring(6);
+  }
+</script>
+
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="webvr,webvr framework,webvr demos,webvr sites,vr javascript,vr framework">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="canonical" href="https://exokit.org">
+    <link href="/style/fonts.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
+    <meta property="fb:app_id" content="">
+    <meta property="og:title" content="Export XR site to Magic Leap One MPK – Exokit">
+    <meta property="og:site_name" content="Exokit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://exokit.org">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="http://exokit.org/images/card.jpg?v2">
+    <meta property="og:image:secure_url" content="https://exokit.org/images/card.jpg?v2">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@exokitXR">
+    <meta name="twitter:creator" content="@exokitXR">
+    <meta name="twitter:title" content="Export XR site to Magic Leap One MPK – Exokit">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://exokit.org/images/card.jpg?v2">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="black">
+    <link rel="icon" sizes="192x192" href="https://exokit.org/images/exokit-logo-192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="https://exokit.org/images/exokit-logo-152.png">
+    <link rel="alternate" type="application/rss+xml" title="Feed" href="https://exokit.org/feed.xml">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('create', '', 'auto', 'managers');
+
+  ga('send', 'pageview');
+  ga('managers.send', 'pageview');
+
+  ga('send', 'event', 'pageload.querystring', window.location.search);
+  ga('managers.send', 'event', 'pageload.querystring', window.location.search);
+
+  ga('send', 'event', 'pageload.hash', window.location.hash);
+  ga('managers.send', 'event', 'pageload.hash', window.location.hash);
+
+  ga('send', 'event', 'supports.getVRDevices', 'getVRDevices' in navigator);
+  ga('managers.send', 'event', 'supports.getVRDevices', 'getVRDevices' in navigator);
+
+  ga('send', 'event', 'supports.getVRDisplays', 'getVRDisplays' in navigator);
+  ga('managers.send', 'event', 'supports.getVRDisplays', 'getVRDisplays' in navigator);
+
+  ga('send', 'event', 'supports.WEBVRPLUS', 'WEBVRPLUS' in window);
+  ga('managers.send', 'event', 'supports.WEBVRPLUS', 'WEBVRPLUS' in window);
+</script>
+
+
+    
+      <script src="/js/compat.js"></script>
+    
+
+    
+      <link rel="stylesheet" href="/css/secondary.css">
+    
+
+    
+      <!-- Search. -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
+      <link rel="stylesheet" href="/css/search.css">
+    
+  </head>
+
+  <body data-page-layout="docs" data-page-type="guides">
+    <main id="main" class="main">
+
+
+<!-- Navigation. -->
+<div class="wordmark">
+  <header id="header" class="header">
+    <a id="logo" class="logo" href="/" title="Exokit">
+      <img src="https://raw.githubusercontent.com/exokitxr/exokit/master/assets/icon.png" alt="exo bot" height="55" width="55">
+    </a>
+  </header>
+
+  
+
+<div class="docs-search-wrapper docs-search-sidebar">
+  <input type="search" class="search-field" placeholder="Search..."></input>
+</div>
+
+</div>
+
+<aside id="sidebar" class="sidebar borderless-links">
+  
+
+<div id="secondary-nav" class="secondary-nav">
+  <header id="header" class="header">
+    <a id="logo" class="logo" href="/" title="Exokit">
+      <span class="logo__wordmark">Exokit</span>
+    </a>
+  </header>
+
+  
+
+<div class="docs-search-wrapper docs-search-sidebar-mobile">
+  <input type="search" class="search-field" placeholder="Search..."></input>
+</div>
+
+
+  <ul id="nav" class="nav">
+    
+      <li  class="nav-item">
+        <a href="/docs/introduction/"
+           class="nav-link nav-link-docs current nav-link-disabled"
+           
+           >
+          <span>Docs</span>
+        </a>
+      </li>
+    
+      <li  class="nav-item">
+        <a href="/blog/"
+           class="nav-link nav-link-docs"
+           
+           >
+          <span>Blog</span>
+        </a>
+      </li>
+    
+      <li  class="nav-item">
+        <a href="/community/"
+           class="nav-link nav-link-docs"
+           
+           >
+          <span>Community</span>
+        </a>
+      </li>
+    
+      <li  class="nav-item">
+        <a href="/showcase/"
+           class="nav-link nav-link-docs"
+           
+           >
+          <span>Showcase</span>
+        </a>
+      </li>
+    
+      <li  data-slug="github" class="nav-item">
+        <a href="https://github.com/exokitxr/exokit/"
+           class="nav-link nav-link-docs"
+            rel="external"
+            title="Exokit Project Repository">
+          <span>GitHub</span>
+        </a>
+      </li>
+    
+      <li  class="nav-item">
+        <a href="https://discord.gg/Apk6cZN"
+           class="nav-link nav-link-docs"
+            rel="external"
+           >
+          <span>Discord</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  <div class="list">
+
+    
+      
+
+      <!-- Section title. -->
+      <h3 class="section-title docs-section-title section-title-inactive">
+        <p class="section-title-link">Introduction</p>
+      </h3>
+
+      <!-- Section links. -->
+      <ol class="subnav section-subnav">
+        
+          <li class="subnav-item ">
+            <a href="/docs/introduction/"
+               class="subnav-link">
+              What is Exokit?
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/introduction/faq.html"
+               class="subnav-link">
+              FAQ
+            </a>
+          </li>
+        
+      </ol>
+    
+      
+
+      <!-- Section title. -->
+      <h3 class="section-title docs-section-title section-title-active">
+        <p class="section-title-link">Guides</p>
+      </h3>
+
+      <!-- Section links. -->
+      <ol class="subnav section-subnav">
+        
+          <li class="subnav-item ">
+            <a href="/docs/guides/exportOculusAPK.html"
+               class="subnav-link">
+              Export XR site to Oculus Mobile APK
+            </a>
+          </li>
+        
+          <li class="subnav-item  subnav-item-current">
+            <a href="/docs/guides/exportMagicLeapOneMPK.html"
+               class="subnav-link current">
+              Export XR site to Magic Leap One MPK
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/guides/exportWindowsEXE.html"
+               class="subnav-link">
+              Export XR site to Windows EXE
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/guides/exportMacDMG.html"
+               class="subnav-link">
+              Export XR site to macOS DMG
+            </a>
+          </li>
+        
+      </ol>
+    
+      
+
+      <!-- Section title. -->
+      <h3 class="section-title docs-section-title section-title-inactive">
+        <p class="section-title-link">SDK</p>
+      </h3>
+
+      <!-- Section links. -->
+      <ol class="subnav section-subnav">
+        
+          <li class="subnav-item ">
+            <a href="/docs/sdk/buildFromSource.html"
+               class="subnav-link">
+              Build from Source
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/sdk/exokitCommandLineFlags.html"
+               class="subnav-link">
+              Command Line Flags
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/sdk/debugging.html"
+               class="subnav-link">
+              Debugging
+            </a>
+          </li>
+        
+      </ol>
+    
+      
+
+      <!-- Section title. -->
+      <h3 class="section-title docs-section-title section-title-inactive">
+        <p class="section-title-link">API</p>
+      </h3>
+
+      <!-- Section links. -->
+      <ol class="subnav section-subnav">
+        
+          <li class="subnav-item ">
+            <a href="/docs/api/overview.html"
+               class="subnav-link">
+              Overview
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/api/webAPIs.html"
+               class="subnav-link">
+              Web APIs
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/api/webxrHardwareExtensionAPIs.html"
+               class="subnav-link">
+              WebXR Hardware Extension APIs
+            </a>
+          </li>
+        
+          <li class="subnav-item ">
+            <a href="/docs/api/iframeAPI.html"
+               class="subnav-link">
+              iframe Reality Layers
+            </a>
+          </li>
+        
+      </ol>
+    
+  </div>
+</aside>
+
+  <!-- Documentation. -->
+  <div class="content content--structured content--guides copy">
+    <div class="mobile-header">
+  <a id="sidebar-toggle" href="#" title="Toggle sidebar">&equiv;</a>
+  <h1><a href="/">Exokit</a></h1>
+  <span></span>
+</div>
+
+<script>
+  (function() {
+    var sidebarEl = document.querySelector('#sidebar');
+    var toggleEl = document.querySelector('#sidebar-toggle');
+
+    // Open sidebar on toggle click.
+    toggleEl.addEventListener('click', function () {
+      sidebarEl.classList.add('sidebar-open');
+    });
+
+    // Close sidebar when clicking content.
+    document.body.addEventListener('click', function (evt) {
+      if (evt.target !== toggleEl && !evt.target.closest('#sidebar')) {
+        sidebarEl.classList.remove('sidebar-open');
+      }
+    });
+
+    function closest (el, selector) {
+      var matchesFn;
+      var parent;
+      // Vendor prefix.
+      ['matches', 'webkitMatchesSelector', 'mozMatchesSelector', 'msMatchesSelector',
+       'oMatchesSelector'].some(function (fn) {
+          if (typeof document.body[fn] == 'function') {
+            matchesFn = fn;
+            return true;
+          }
+          return false;
+      });
+      // Traverse parents.
+      while (el) {
+        parent = el.parentElement;
+        if (parent && parent[matchesFn](selector)) { return parent; }
+        el = parent;
+      }
+      return null;
+    }
+  })();
+</script>
+
+
+    <div class="copy__wrap">
+      <div class="page__section docs-header">
+        <p>
+          <a href="/docs/guides/exportOculusAPK.html" class="borderless-link">
+             &rsaquo; Guides
+          </a>
+        </p>
+      </div>
+      <h1 class="page__title">
+        Export XR site to Magic Leap One MPK
+      </h1>
+
+      
+
+
+
+      <p>This guide explains how to package your XR site with the Exokit Engine as an MPK for the Magic Leap One headset.</p>
+<h2 id="set-default-site"><a href="#set-default-site" class="headerlink" title="Set default site"></a>Set default site</h2><p>In the Exokit <a href="https://github.com/exokitxr/exokit/blob/f10dadf0013de0a35a5e72046140a0345987ab80/main.cpp#L416" target="_blank" rel="external"><code>main.cpp</code></a> is where you will find the default site that the Exokit MPK will load into. Change the <code>jsString</code> to your site URL or file path.</p>
+<h2 id="prerequisites"><a href="#prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><p>Node <code>11.15.0</code><br>Latest Exokit
+Ubuntu Windows Subsystem for Linux (WSL)</p>
+<h2 id="install-the-magic-leap-sdk"><a href="#install-the-magic-leap-sdk" class="headerlink" title="Install the Magic Leap SDK"></a>Install the Magic Leap SDK</h2><p>Sign in as a Magic Leap creator:
+<a href="https://www.magicleap.com/creator" target="_blank" rel="external">https://www.magicleap.com/creator</a></p>
+<p>Download developer certificate and private key in Publish then Certificates.</p>
+<p>Download the Package Manager:
+<a href="https://creator.magicleap.com/downloads/lumin-sdk/overview" target="_blank" rel="external">https://creator.magicleap.com/downloads/lumin-sdk/overview</a></p>
+<p>Once the package manager is opened, download the 0.19.0 version of the SDK.</p>
+<h2 id="build-mpk"><a href="#build-mpk" class="headerlink" title="Build MPK"></a>Build MPK</h2><p>Confirm that <code>MLSDK</code> in <code>scripts/magicleap/version-ml.sh</code> points to the Magic Leap SDK directory. Create the <code>cert</code> directory and place the renamed certificate and private key inside.
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> exokit</span><br><span class="line"><span class="comment"># edit MLSDK path in ./scripts/magicleap/version-ml.sh</span></span><br><span class="line"><span class="comment"># place the renamed certificate in cert/app.cert and private key in cert/app.privkey</span></span><br></pre></td></tr></table></figure></p>
+<p>Build the MPK
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Run this inside Ubuntu WSL</span></span><br><span class="line">./scripts/magicleap/build-ml.sh</span><br></pre></td></tr></table></figure></p>
+<p>If you want to now install and run into your plugged in device using mldb
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">./scripts/magicleap/install-ml.sh</span><br><span class="line">./scripts/magicleap/run-ml.sh</span><br></pre></td></tr></table></figure></p>
+
+
+      <!-- Previous / Next navigation. -->
+      <footer class="footer guide-links c">
+        
+          <span class="float-left">
+            <a href="/docs/guides/exportOculusAPK.html" class="guide-link guide-link-left">← Export XR site to Oculus Mobile APK </a></span>
+        
+        
+          <span class="float-right">
+            <a href="/docs/guides/exportWindowsEXE.html" class="guide-link guide-link-right">Export XR site to Windows EXE →</a></span>
+        
+      </footer>
+
+      <footer class="footer footnote">
+  <p>
+    The Exokit project and content on this site are licensed under the <a href="https://github.com/exokitxr/exokit/blob/master/LICENSE" rel="external">MIT License</a>.
+  </p>
+  <p>Found a typo or suggestion for the docs? <br><br> <a href="https://github.com/exokitxr/exokit/edit/master/docs/guides/exportMagicLeapOneMPK.md" class="github-file-link" target="_blank" rel="external">Suggest an edit on GitHub</a></p>
+</footer>
+
+    </div>
+
+    <div class="secondary-sidebar">
+      
+
+<div id="table-of-contents" class="nav-list">
+  <p class="section-title docs-section-title">Table of Contents</p>
+
+  <ul class="subnav">
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#set-default-site">Set default site</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#prerequisites">Prerequisites</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#install-the-magic-leap-sdk">Install the Magic Leap SDK</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="subnav-item">
+        <a class="subnav-link" href="#build-mpk">Build MPK</a>
+
+        <!-- Nested. -->
+        
+          <ul>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+</div>
+
+      
+
+      <div class="doc-actions">
+        <a class="docs-suggest-edit github-file-link" href="https://github.com/exokitxr/exokit/edit/master/docs/guides/exportMagicLeapOneMPK.md" target="_blank" rel="external">Edit Page</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+    
+      <script src="/js/common.js"></script>
+      
+      
+        <script src="/js/docs.js"></script>
+      
+    
+
+    
+      <!-- Algolia search. -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript">
+  var searchConfig = {
+    apiKey: '54ba2ccc5312e661c076cefbae82311b',
+    indexName: 'exokit',
+    algoliaOptions: {
+      hitsPerPage: 10
+    },
+    debug: false
+  };
+
+  docsearch(Object.assign(searchConfig, {inputSelector: '.docs-search-sidebar .search-field'}));
+  docsearch(Object.assign(searchConfig, {inputSelector: '.docs-search-sidebar-mobile .search-field'}));
+</script>
+
+    
+  </body>
+</html>

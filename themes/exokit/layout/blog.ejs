@@ -1,0 +1,98 @@
+<%- partial('partials/secondary/sidebar_wordmark') %>
+<aside id="sidebar" class="sidebar borderless-links">
+  <%- partial('partials/secondary/sidebar_header', {site: site}) %>
+
+  <div class="list">
+    <h3 class="section-title">Blog Posts</h3>
+    <ul class="subnav section-subnav blog-subnav">
+      <% site.posts.sort('-date').forEach(function (post) { %>
+        <li class="subnav-item <%= post.title === page.title ? ' subnav-item-current' : '' %>">
+          <a href="<%- page_url(post.path) %>"
+             class="subnav-link<%= post.title === page.title ? ' current' : '' %>"
+             title="<%- post.title %>">
+            <%- post.title %>
+          </a>
+        </li>
+      <% }); %>
+    </ul>
+  </div>
+</aside>
+
+  <div class="content content--blog copy post">
+    <%- partial('partials/secondary/mobile_header') %>
+
+    <div class="copy__wrap">
+      <% if (page.blog_index) { %>
+        <h1 class="page__title"><%- config.blog_title %></h1>
+
+        <%- page.content %>
+
+        <% page.posts.each(function (post) { %>
+          <article class="post post--listing">
+            <a href="<%- page_url(post.path) %>">
+              <h2 class="post__heading"><%- post.title %></h2>
+            </a>
+            <%- partial('partials/blog/metadata', {post: post}) %>
+
+            <% if (post.excerpt) { %>
+              <%- partial('partials/blog/image', {image: post.image, title: post.title}) %>
+              <div class="post__excerpt"><%- post.excerpt %></div>
+            <% } %>
+
+            <a href="<%- page_url(post.path) %>" class="post__more">Read more &hellip;</a>
+          </article>
+        <% }) %>
+
+        <footer class="footer guide-links c">
+          <% var prevPost = page.prev %>
+          <% var nextPost = page.next %>
+          <% if (page.prev) { %>
+            <span class="float-left"><a href="<%- page_url(prevPost.path) %>" class="guide-link guide-link-left">← <%- prevPost.title %></a></span>
+          <% } %>
+          <% if (page.next) { %>
+            <span class="float-right"><a href="<%- page_url(nextPost.path) %>" class="guide-link guide-link-right"><%- nextPost.title %> →</a></span>
+          <% } %>
+        </footer>
+      <% } else { %>
+        <article class="post post-full">
+          <p class="page__section">
+            <a href="<%- url_for('blog/') %>" class="borderless-link">Blog</a>
+          </p>
+
+          <h1 class="page__title post__heading"><%- page.title %></h1>
+          <%- partial('partials/blog/metadata', {post: page}) %>
+
+          <%- partial('partials/blog/image', {image: page.image, title: page.title}) %>
+
+          <%- page.content %>
+
+        </article>
+
+        <footer class="footer guide-links c">
+          <% // Yes, these are correct. %>
+          <% var prevPost = page.next %>
+          <% var nextPost = page.prev %>
+          <% if (prevPost) { %>
+            <span class="float-left"><a href="<%- page_url(prevPost.path) %>" class="guide-link guide-link-left">← <%- prevPost.title %></a></span>
+          <% } %>
+          <% if (nextPost) { %>
+            <span class="float-right"><a href="<%- page_url(nextPost.path) %>" class="guide-link guide-link-right"><%- nextPost.title %> →</a></span>
+          <% } %>
+        </footer>
+      <% } %>
+
+      <footer class="footer footnote">
+        <p>Except where otherwise noted, content on this site is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="external">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.</p>
+        <% if (!page.blog_index) { %>
+          <p>Found a typo or suggestion for the docs? <br><br> <a href="<%- website_github_edit_url('_posts/' + page.slug + '.md') %>" class="github-file-link" rel="external">Suggest an edit on GitHub</a></p>
+        <% } %>
+      </footer>
+    </div>
+
+    <% if (!page.blog_index) { %>
+      <div class="secondary-sidebar">
+        <%- partial('partials/toc', {page: page}) %>
+      </div>
+    <% } %>
+  </div>
+</div>

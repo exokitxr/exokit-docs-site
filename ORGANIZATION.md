@@ -10,9 +10,11 @@ Powered by [Hexo](https://hexo.io/)
 - `COPYsrc` - Landing page files copied over after generating Hexo files.
 - `src` - Content. Do not put CSS/JavaScript files here because Hexo will malform them.
   - `_data/` -
+  - `_posts/` - Blog posts.
+  - `blog/index.md` - Hexo blog section metadata. Does **not** contain blog posts.
   - `community/index.md` - Community page.
   - `faq/index.md` - FAQ page.
-  - `images/` - Site  images
+  - `images/` - Site and blog images
 - `themes/` - Layout, CSS, releases.
   - `exokit/`
     - `layout/` - HTML and templates.

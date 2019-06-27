@@ -117,7 +117,8 @@ browsersync:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:exokitxr/exokitxr.github.io.git
+  repository: git@github.com:exokitxr/exokitxr-site.git
+  branch: gh-pages
 
 disqus_shortname:
 twitter:

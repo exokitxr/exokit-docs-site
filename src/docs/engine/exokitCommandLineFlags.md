@@ -1,6 +1,6 @@
 ---
 title: Command Line Flags
-type: sdk
+type: engine
 layout: docs
 order: 4
 parent_section: sdk

@@ -1,8 +1,8 @@
 ---
 title: FAQ
-type: introduction
+type: engine
 layout: docs
-parent_section: introduction
+parent_section: engine
 order: 14
 ---
 

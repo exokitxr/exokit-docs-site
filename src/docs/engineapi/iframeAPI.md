@@ -1,9 +1,9 @@
 ---
 title: iframe Reality Layers
-type: api
+type: engineapi
 layout: docs
 order: 5
-parent_section: api
+parent_section: engineapi
 ---
 
 Exokit implements normal [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) functionality with the ability to do volumetric manipulation.

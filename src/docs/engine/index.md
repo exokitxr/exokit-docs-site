@@ -1,13 +1,11 @@
 ---
 title: What is Exokit?
-section_title: Introduction
-type: introduction
+section_title: Engine
+section_order: 3
+type: engine
 layout: docs
 order: 0
 parent_section: docs
-section_order: 0
-installation: true
-examples:
 ---
 
 ## The Basics

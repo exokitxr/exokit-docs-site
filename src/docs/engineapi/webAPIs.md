@@ -1,9 +1,9 @@
 ---
 title: Web APIs
-type: api
+type: engineapi
 layout: docs
 order: 1
-parent_section: api
+parent_section: engineapi
 ---
 
 ## WebVR

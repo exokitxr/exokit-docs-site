@@ -1,9 +1,9 @@
 ---
 title: WebXR Hardware Extension APIs
-type: api
+type: engineapi
 layout: docs
 order: 2
-parent_section: api
+parent_section: engineapi
 ---
 
 This currently consists of seperate device-specific APIs, but will be folded into a more generic API, properly coded in Exokit generically on the `session` objects rather than under a `magicleap` namespace.

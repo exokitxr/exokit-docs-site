@@ -12,7 +12,7 @@ Powered by [Hexo](https://hexo.io/)
   - `_data/` -
   - `community/index.md` - Community page.
   - `faq/index.md` - FAQ page.
-  - `images/` - Site  images
+  - `images/` - Site images
 - `themes/` - Layout, CSS, releases.
   - `exokit/`
     - `layout/` - HTML and templates.

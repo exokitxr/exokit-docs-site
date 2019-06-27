@@ -21,8 +21,6 @@ people who come together to make developing WebXR a rewarding experience.
 
 ## News
 
-- [Blog](../blog/) - collects the latest
-  news, upcoming events, and cool projects that other people are working on.
 - [Twitter](https://twitter.com/exokitxr) - Keep up to date with awesome
   projects that people are doing and announcements.
 

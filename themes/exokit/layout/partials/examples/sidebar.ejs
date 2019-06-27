@@ -20,17 +20,6 @@
         Get Started
       </a>
 
-      <div class="list examples-list blog-list">
-        <h2 class="page-title"><a href="/blog">Blog</a></h2>
-        <ul id="examplesSubnav"
-            class="subnav examples-subnav borderless-links">
-          <% var lastPost = site.posts.sort('-date').data[0] %>
-          <li class="example-item">
-            <a class="subnav-link" href="<%- lastPost.path %>" title="<%- lastPost.title %>"><%- lastPost.title %></a>
-          </li>
-        </ul>
-      </div>
-
         <!-- Documentation list. -->
         <div class="list examples-list">
           <ul id="examplesSubnav"

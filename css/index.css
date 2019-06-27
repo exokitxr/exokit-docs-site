@@ -195,9 +195,6 @@ h4 {
 .copy__wrap {
   padding: 40px;
 }
-[data-page-type="blog"] .copy__wrap {
-  padding-top: 20px;
-}
 .nav,
 .subnav {
   list-style-type: none;
@@ -733,29 +730,6 @@ span[itemprop] {
   position: relative;
   top: 4px;
   width: 20px;
-}
-.blog-list {
-  display: none;
-  padding-bottom: 10px;
-}
-@media (min-width: 900px) {
-  .blog-list {
-    display: block;
-  }
-}
-.blog-list .page-title a {
-  border-bottom: 0;
-  font-weight: 300;
-  font-size: 15px;
-  color: rgba(0,0,0,0.6);
-  font-weight: 100;
-  letter-spacing: 0.02em;
-}
-.blog-list .subnav-link {
-  width: 210px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .example-nav {
   margin-top: 18px;

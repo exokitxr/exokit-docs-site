@@ -14,11 +14,6 @@ hexo.extend.generator.register('site-redirects', function () {
   ]);
 });
 
-hexo.extend.generator.register('blog-redirects', function () {
-  return expandRedirectObjs([
-  ]);
-});
-
 hexo.extend.generator.register('community-short-url-redirects', function () {
   return expandRedirectObjs([
     ['github/', hexo.config.github.exokit.url],

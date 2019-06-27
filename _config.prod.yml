@@ -9,7 +9,6 @@ description: "Native VR/AR/XR engine for JavaScript"
 email:
 language:
 robots: all
-blog_title: Blog
 
 # Color for `<meta name="theme-color">`.
 ## https://html.spec.whatwg.org/multipage/semantics.html#meta-theme-color
@@ -20,7 +19,6 @@ theme_color: black
 ## If your site is put in a sub-directory, set URL as `http://yoursite.com/child` and root as `/child/`.
 url: https://exokit.org
 root: /
-permalink: blog/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories

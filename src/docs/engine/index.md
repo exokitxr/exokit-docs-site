@@ -1,5 +1,5 @@
 ---
-title: What is Exokit?
+title: Engine Overview
 section_title: Engine
 section_order: 3
 type: engine
@@ -18,12 +18,12 @@ The Exokit Engine is built using Node.js. It is primarily used to power 3d exper
 
 ![DumzXuYU0AEInfW](https://user-images.githubusercontent.com/29695350/57173364-27482c80-6df4-11e9-9464-c8ddf4a00ccd.jpg)
 
-## Exokit and the Web
-Exokit provides native hooks for WebGL, WebXR, WebVR, WebAudio, and other APIs used for immersive experiences.
-The Exokit engine loads web pages and experiences built with your favorite frameworks like THREE.js, A-Frame, Babylon.js, etc.
+## Exokit Engine and the Web
+Exokit Engine provides native hooks for WebGL, WebXR, WebVR, WebAudio, and other APIs used for immersive experiences.
+The Exokit Engine loads web pages and experiences built with your favorite frameworks like THREE.js, A-Frame, Babylon.js, etc.
 
 ![Screenshot from 2019-03-05 19-05-23](https://user-images.githubusercontent.com/29695350/57173374-7c843e00-6df4-11e9-8e5d-9191912a11f7.png)
 
 ## Get started
-Start your journey, [download Exokit here](https://get.exokit.org/).  
-If you are a developer, [get started developing on Exokit here](../sdk/buildFromSource).
+Start your journey, [download Exokit Engine here](https://get.exokit.org/).  
+If you are a developer, [get started developing on Exokit Engine here](../sdk/buildFromSource).

@@ -1,12 +1,12 @@
 ---
 title: Build from Source
-section_title: SDK
-type: sdk
+section_title: Engine
+type: engine
 layout: docs
-order: 0
-parent_section: docs
-section_order: 3
+order: 1
+parent_section: engine
 ---
+
 
 The main project repository is at [`exokitxr/exokit`](https://github.com/exokitxr/exokit). You can clone it the regular way:
 

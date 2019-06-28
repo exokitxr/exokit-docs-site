@@ -1,9 +1,9 @@
 ---
 title: Debugging
-type: sdk
+type: engine
 layout: docs
 order: 5
-parent_section: sdk
+parent_section: engine
 ---
 
 ## Logging

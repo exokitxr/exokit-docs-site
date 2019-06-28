@@ -13,8 +13,8 @@ hexo.extend.generator.register('examples', function (locals) {
     });
   }
 
-  addRoute('docs/', utils.createRedirectResponse(hexo, 'docs/introduction'));
-  addRoute('faq/', utils.createRedirectResponse(hexo, 'docs/introduction/faq.html'));
+  addRoute('docs/', utils.createRedirectResponse(hexo, 'docs/engine/'));
+  addRoute('faq/', utils.createRedirectResponse(hexo, 'docs/engine/faq.html'));
 
 
   return routes;

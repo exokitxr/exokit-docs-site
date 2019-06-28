@@ -10,7 +10,7 @@ var MASTER = 'master';
 
 hexo.extend.generator.register('site-redirects', function () {
   return expandRedirectObjs([
-    ['faq/', join('docs', 'introduction', 'faq.html')]
+    ['faq/', join('docs', 'engine', 'faq.html')]
   ]);
 });
 
@@ -62,8 +62,8 @@ hexo.extend.generator.register('docs-redirects', function () {
     // getDocRootRedirectObjs()
   ];
   redirectObjs.push([
-    ['docs/', 'docs/' + 'introduction/'],
-    ['docs/guide/', 'docs/' + 'introduction/']
+    ['docs/', 'docs/' + 'engine/'],
+    ['docs/guide/', 'docs/' + 'engine/']
   ]);
 
   // Flatten arrays since `redirectObjs` is an array of arrays of arrays. We just want a flat

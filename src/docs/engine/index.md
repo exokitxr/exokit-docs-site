@@ -26,4 +26,4 @@ The Exokit Engine loads web pages and experiences built with your favorite frame
 
 ## Get started
 Start your journey, [download Exokit Engine here](https://get.exokit.org/).  
-If you are a developer, [get started developing on Exokit Engine here](../sdk/buildFromSource).
+If you are a developer, [get started developing on Exokit Engine here](./buildFromSource).

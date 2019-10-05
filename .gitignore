@@ -7,6 +7,5 @@ _config.yml
 db.json
 node_modules/
 npm-debug*.log
-public/
 src/_drafts
 debug.log
